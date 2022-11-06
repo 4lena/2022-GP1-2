@@ -70,14 +70,17 @@ who want to inspect the toxicity of their comments.
    ```sh
    pip install module name
    ```
-4. Again run all the Python files in Visual Studio Code and also download any required modules by using the previous code.
-5. Edit the directories of the Python connection code in the following PHP files:
-* overallToxicity.php.
+4. Edit the directories of the Python connection code in the following PHP files:
+* overallToxicity.php
 * InspectData.php<br>**For example** edit the following code to match your directory:
    ```sh
    $command = escapeshellcmd('write your directory here  API.py "'.$UploadedFile.'" "'.$fileID.'"');
    ```
+5. Edit the directories of the following Python files:
+* API.py
+* APIar.py
+* InspectData.py<br>**For example** edit the first line of the python code to match the directory of your environment:
+   ```sh
+   #!write your environment directory here
+   ```
 6. Finally, run the files using your localhost server.
-
-
-**Note:** In order to upload the .CSV files you have to locate them in the **Uploads** folder.
