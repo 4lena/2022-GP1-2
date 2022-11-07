@@ -35,7 +35,7 @@ Most of today's toxicity detection tools do not produce accurate results due to 
 why we come up with the idea of Toxicity Inspector. Toxicity Inceptor is a web-based application that inspects the overall 
 toxicity level of the comments as well as for other many features. It also uses the advantages of users' feedback to provide 
 an accurate result. The main goal of the Toxicity Inceptor is to provide accurate, reliable toxicity detection to those people 
-who want to inspect the toxicity of their comments. 
+who want to inspect the toxicity level of their comments. 
 
 <!-- technology -->
 ## Built With
