@@ -1,0 +1,453 @@
+[{
+  "fileID": {
+    "fileID": "636929fa946949916d0d2572"
+  },
+  "comment": {
+    "comment": "Bush 'fully informed' of CIA methods http://t.co/qRvvPVrjVh No?? Really?? Shocking... "
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 86,
+            "score": {
+              "value": 0.019073274,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.019073274,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 86,
+            "score": {
+              "value": 0.011456826,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.011456826,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 86,
+            "score": {
+              "value": 0.023093075,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.023093075,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 86,
+            "score": {
+              "value": 0.00333786,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00333786,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 86,
+            "score": {
+              "value": 0.085582085,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.085582085,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 86,
+            "score": {
+              "value": 0.032142747,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.032142747,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "en"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636929fa946949916d0d2572"
+  },
+  "comment": {
+    "comment": "Your Jedi mind tricks don't work on me service guy. |Glad I dropped the car off for the oil change instead of Av."
+  },
+  "response": {
+    "attributeScores": {
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 113,
+            "score": {
+              "value": 0.0741757,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0741757,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 113,
+            "score": {
+              "value": 0.018364733,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.018364733,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 113,
+            "score": {
+              "value": 0.09124154,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.09124154,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 113,
+            "score": {
+              "value": 0.01374736,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.01374736,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 113,
+            "score": {
+              "value": 0.24603334,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.24603334,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 113,
+            "score": {
+              "value": 0.0076675415,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0076675415,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "en"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636929fa946949916d0d2572"
+  },
+  "comment": {
+    "comment": "I often worry that wealth doesn't  have enough influence in society  so pleased to see this being addressed  http://t.co/2U3PerpZQz"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 131,
+            "score": {
+              "value": 0.03109552,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.03109552,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 131,
+            "score": {
+              "value": 0.008953481,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008953481,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 131,
+            "score": {
+              "value": 0.002155304,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002155304,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 131,
+            "score": {
+              "value": 0.010162249,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010162249,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 131,
+            "score": {
+              "value": 0.0107048955,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0107048955,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 131,
+            "score": {
+              "value": 0.020920247,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.020920247,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "en"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636929fa946949916d0d2572"
+  },
+  "comment": {
+    "comment": "@TheView @WhoopiGoldberg  women say 1 man asltd them  y so long 2 say sumtin? & the young 1s  where the parents? Hotel wit grn ass man? Smh"
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 139,
+            "score": {
+              "value": 0.16801116,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.16801116,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 139,
+            "score": {
+              "value": 0.4838166,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.4838166,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 139,
+            "score": {
+              "value": 0.44431314,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.44431314,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 139,
+            "score": {
+              "value": 0.020609349,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.020609349,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 139,
+            "score": {
+              "value": 0.34782293,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.34782293,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 139,
+            "score": {
+              "value": 0.037697118,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.037697118,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "en"
+    ]
+  }
+}]
