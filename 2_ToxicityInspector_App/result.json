@@ -1,0 +1,7588 @@
+[{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0631\u0627\u0626\u0639"
+  },
+  "response": {
+    "attributeScores": {
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.025087673,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.025087673,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.006696612,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006696612,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.0026512146,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0026512146,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.012642908,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012642908,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.009100696,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009100696,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.035220183,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.035220183,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0628\u0631\u0646\u0627\u0645\u062c \u0631\u0627\u0626\u0639 \u062c\u062f\u0627 \u064a\u0633\u0627\u0639\u062f \u0639\u0644\u0649 \u062a\u0644\u0628\u064a\u0647 \u0627\u0644\u0627\u062d\u062a\u064a\u0627\u062c\u0627\u062a \u0628\u0634\u0643\u0644 \u0627\u0633\u0631\u0639"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 52,
+            "score": {
+              "value": 0.007664877,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007664877,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 52,
+            "score": {
+              "value": 0.002330865,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002330865,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 52,
+            "score": {
+              "value": 0.008984734,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008984734,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 52,
+            "score": {
+              "value": 0.0009918213,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0009918213,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 52,
+            "score": {
+              "value": 0.0067057298,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0067057298,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 52,
+            "score": {
+              "value": 0.013029462,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.013029462,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0644\u0627 \u064a\u063a\u062a\u062d \u062f\u0627\u0626\u0645\u0627 \u0628\u064a\u0639\u0637\u064a\u0646\u064a \u0644\u0627 \u064a\u0648\u062c\u062f \u0627\u062a\u0635\u0627\u0644 \u0628\u0627\u0644\u0634\u0628\u0643\u0629..\u0645\u0639 \u0627\u0646\u0647 \u0627\u0644\u0646\u062a \u0639\u0646\u062f\u064a \u062a\u0645\u0627\u0645 \u0634\u0648 \u0627\u0644\u062d\u0644??"
+  },
+  "response": {
+    "attributeScores": {
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 84,
+            "score": {
+              "value": 0.014942379,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.014942379,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 84,
+            "score": {
+              "value": 0.0060196044,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0060196044,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 84,
+            "score": {
+              "value": 0.0007343292,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0007343292,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 84,
+            "score": {
+              "value": 0.012817383,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012817383,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 84,
+            "score": {
+              "value": 0.008823884,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008823884,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 84,
+            "score": {
+              "value": 0.0015909078,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0015909078,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062c\u0645\u064a\u0644 \u062c\u062f\u0627 \u0631\u0627\u0626\u0639. . ."
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.00866054,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00866054,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.011046898,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.011046898,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.027560094,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.027560094,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.0050317086,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0050317086,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.002374649,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002374649,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.02119352,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.02119352,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0644\u0644\u0623\u0633\u0641 \u0627\u0644\u0648\u0627\u062d\u062f \u064a\u0646\u0635\u062f\u0645 \u0628\u0639\u062f \u0632\u064a\u0627\u062f\u0629 \u0627\u0644\u0627\u0633\u0639\u0627\u0631 \u0648 \u0644\u0644\u0627\u0633\u0641 \u0628\u0639\u0636 \u0627\u0644\u0645\u0637\u0627\u0639\u0645 \u0627\u0635\u0628\u062d\u062a \u0645\u0639\u0627\u0645\u0644\u062a\u0647\u0645 \u0631\u062f\u064a\u0626\u0629"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 77,
+            "score": {
+              "value": 0.006433869,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006433869,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 77,
+            "score": {
+              "value": 0.09525062,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.09525062,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 77,
+            "score": {
+              "value": 0.008731495,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008731495,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 77,
+            "score": {
+              "value": 0.02392626,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.02392626,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 77,
+            "score": {
+              "value": 0.06023245,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.06023245,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 77,
+            "score": {
+              "value": 0.0027275085,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0027275085,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0628\u0631\u0646\u0627\u0645\u062c \u062a\u0648\u062a\u0631\u0632 \u062a\u0648\u0635\u064a\u0644 \u0627\u062d\u0644\u0649 \u0645\u0646 \u0628\u0631\u0646\u0627\u0645\u062c\u0643\u0645 \u0641\u0627\u0634\u0644"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 40,
+            "score": {
+              "value": 0.23415339,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.23415339,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 40,
+            "score": {
+              "value": 0.021183543,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.021183543,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 40,
+            "score": {
+              "value": 0.12903778,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.12903778,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 40,
+            "score": {
+              "value": 0.012130737,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012130737,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 40,
+            "score": {
+              "value": 0.1798321,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.1798321,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 40,
+            "score": {
+              "value": 0.007909686,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007909686,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0643\u062a\u064a\u0631 \u0641\u064a \u062a\u062d\u0633\u0646 \u062e\u062f\u0645\u0629 \u0627\u0644\u0639\u0645\u0644\u0627\u0621 \u0644\u0637\u0641\u064a\u0646 \u0641\u064a \u0628\u0639\u0636 \u0627\u0644\u0627\u062e\u0637\u0627\u0621 \u0627\u0644\u062a\u0642\u0646\u064a\u0629 \u0644\u0643\u0646 \u0628\u062a\u0635\u0644\u062d\u0648\u0647\u0627 \u0628\u0633\u0631\u0639\u0629 \u0648\u0628\u0639\u0636 \u0627\u0644\u062a\u0627\u062e\u064a\u0631 \u0633\u064a\u0627\u0633\u064a\u062a\u0643\u0645 \u0648\u062a\u0633\u0648\u064a\u0642\u0643\u0645 \u0635\u0627\u0631 \u0627\u0641\u0636\u0644 \u0645\u0646 \u0643\u0631\u064a\u0645 \u0628\u0627\u0644\u0646\u0633\u0628\u0629 \u0627\u0644\u064a \u0645\u062a\u0641\u0642\u064a\u0646"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 140,
+            "score": {
+              "value": 0.0058966195,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0058966195,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 140,
+            "score": {
+              "value": 0.014874061,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.014874061,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 140,
+            "score": {
+              "value": 0.025929155,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.025929155,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 140,
+            "score": {
+              "value": 0.0040327664,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0040327664,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 140,
+            "score": {
+              "value": 0.036870047,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.036870047,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 140,
+            "score": {
+              "value": 0.0013256073,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0013256073,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0645\u0645\u062a\u0627\u0632"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.012946909,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012946909,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.0026130676,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0026130676,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.03357032,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.03357032,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.009048914,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009048914,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.024199532,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.024199532,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.0068446035,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0068446035,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ur",
+      "ar",
+      "fa"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0633\u0639\u0627\u0631\u0647\u0645 \u0627\u063a\u0644\u0627 \u0645\u0646 \u0627\u0644\u0645\u062d\u0644\u0627\u062a \u0628 \u0643\u062b\u064a\u0631 \u0648 \u0628\u062d\u0637\u0648\u0644\u0643 \u062a\u0648\u0635\u064a\u0644 \u0645\u062c\u0627\u0646\u064a \u062d\u0643\u064a \u0641\u0627\u0636\u064a \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0644\u0627 \u0627\u0646\u0635\u062d \u0628\u0647"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 79,
+            "score": {
+              "value": 0.0010871887,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0010871887,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 79,
+            "score": {
+              "value": 0.02373764,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.02373764,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 79,
+            "score": {
+              "value": 0.015249812,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.015249812,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 79,
+            "score": {
+              "value": 0.033806015,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.033806015,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 79,
+            "score": {
+              "value": 0.0057089063,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0057089063,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 79,
+            "score": {
+              "value": 0.002885833,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002885833,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0644\u062a\u0637\u064a\u0628\u0642 \u0644\u0627\u064a\u0639\u0645\u0644 \u0628\u063a\u062f\u0627\u062f"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 20,
+            "score": {
+              "value": 0.025155678,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.025155678,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 20,
+            "score": {
+              "value": 0.0026130676,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0026130676,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 20,
+            "score": {
+              "value": 0.0064985976,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0064985976,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 20,
+            "score": {
+              "value": 0.018392462,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.018392462,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 20,
+            "score": {
+              "value": 0.048842013,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.048842013,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 20,
+            "score": {
+              "value": 0.011025362,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.011025362,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u063a\u062f\u0622 \u0627\u0644\u0633\u0628\u062a \u0627\u0644\u0623\u062d\u062f \u0627\u0644\u0623\u0631\u0628\u0639\u0627\u0621 \u0648\u0627\u0644\u062e\u0645\u064a\u0633"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 32,
+            "score": {
+              "value": 0.009545889,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009545889,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 32,
+            "score": {
+              "value": 0.007935578,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007935578,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 32,
+            "score": {
+              "value": 0.0016498566,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0016498566,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 32,
+            "score": {
+              "value": 0.005919657,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005919657,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 32,
+            "score": {
+              "value": 0.019980038,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.019980038,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 32,
+            "score": {
+              "value": 0.01579636,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.01579636,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0641\u0627\u0627\u0627\u0627\u0627\u0634\u0644 \u062c\u062f\u0627 \u0627\u0644\u0628\u062d\u062b \u0645\u0627 \u0628\u0639\u0637\u064a \u0641\u0627\u0626\u062f\u0629 \u064a\u062a\u0645 \u0643\u062a\u0627\u0628\u0647 \u0625\u0633\u0645 \u0627\u0644\u0645\u0637\u0639\u0645 \u0648\u0645\u0639 \u0630\u0644\u0643 \u0627\u0644\u0628\u062d\u062b \u0644\u0627 \u064a\u0638\u0647\u0631 \u0627\u0644\u0645\u0637\u0639\u0645 \u0627\u0644\u0645\u0637\u0644\u0648\u0628 \u064a\u0642\u0648\u0645 \u0628\u0625\u0639\u0637\u0627\u0621 \u0645\u0637\u0627\u0639\u0645 \u0639\u0644\u0649 \u0645\u0632\u0627\u062c\u0647"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 118,
+            "score": {
+              "value": 0.006382086,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006382086,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 118,
+            "score": {
+              "value": 0.103928015,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.103928015,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 118,
+            "score": {
+              "value": 0.0043678284,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0043678284,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 118,
+            "score": {
+              "value": 0.04910661,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.04910661,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 118,
+            "score": {
+              "value": 0.052934792,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.052934792,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 118,
+            "score": {
+              "value": 0.005512681,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005512681,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0647\u0644\u0627"
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.005105704,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005105704,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.0082074385,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0082074385,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.022021262,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.022021262,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.00979289,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00979289,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.01941724,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.01941724,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.0017642975,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0017642975,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062c\u0627\u0645\u062f"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.009178371,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009178371,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.0027656555,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0027656555,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.019161236,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.019161236,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.05378982,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.05378982,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.007880543,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007880543,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.030138692,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.030138692,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "fa",
+      "ur",
+      "ar",
+      "sd"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0646\u0632\u0644\u062a\u0647 \u0648\u0645\u0641\u064a\u0634 \u0627\u0644\u062e\u0635\u0645 \u0627\u0644\u0644\u064a \u0642\u0644\u062a\u0647 \u0639\u0644\u064a\u0647 \u0639\u0644\u064a \u0623\u0648\u0644 3\u0637\u0644\u0628\u0627\u062a \u0627\u0639\u0645\u0644 \u0627\u064a\u0647 \u0639\u0634\u0627\u0646 \u064a\u0637\u0628\u0642"
+  },
+  "response": {
+    "attributeScores": {
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 66,
+            "score": {
+              "value": 0.02071529,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.02071529,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 66,
+            "score": {
+              "value": 0.01306091,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.01306091,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 66,
+            "score": {
+              "value": 0.001077652,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.001077652,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 66,
+            "score": {
+              "value": 0.005890147,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005890147,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 66,
+            "score": {
+              "value": 0.019980038,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.019980038,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 66,
+            "score": {
+              "value": 0.0015354111,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0015354111,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062c\u064a\u062f \u062c\u062f\u0646"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.0038146973,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0038146973,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.009915425,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009915425,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.07291982,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.07291982,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.039407436,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.039407436,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.009359611,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009359611,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.019096779,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.019096779,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0644\u0636\u0631\u064a\u0628\u0647 \u0639\u0627\u0644\u064a\u0629 \u062c\u062f\u0627\u064b"
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.0029043318,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0029043318,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.009393888,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009393888,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.012175481,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012175481,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.015016444,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.015016444,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.005935457,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005935457,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 18,
+            "score": {
+              "value": 0.00092983246,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00092983246,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0635\u0627\u0631 \u0633\u064a\u0621 \u0643\u062b\u064a\u0631\u060c \u0648\u062a\u0627\u062e\u064a\u0631 \u0641\u064a \u062a\u0648\u0635\u064a\u0644 \u0627\u0644\u0637\u0644\u0628\u0627\u062a\u060c \u0627\u0644\u0637\u0639\u0627\u0645 \u064a\u0635\u0644 \u0645\u062a\u0623\u062e\u0631 \u0648\u0628\u0627\u0631\u062f \u062c\u062f\u0627\u060c \u0645\u0646 \u0661\u0665 \u062f\u0642\u064a\u0642\u0629 \u064a\u0635\u0644 \u0627\u0644\u0637\u0644\u0628 \u0628\u0639\u062f \u0633\u0627\u0639\u0629 \u0648\u0646\u0635\u0641 \u0648\u0644\u0627 \u064a\u0648\u062c\u062f \u062a\u062c\u0627\u0648\u0628 \u0645\u0646 \u0642\u0628\u0644 \u0627\u0644\u0627\u062f\u0627\u0631\u0629 \u0628\u0634\u0623\u0646 \u062a\u0623\u062e\u064a\u0631 \u0627\u0644\u062a\u0648\u0635\u064a\u0644"
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 159,
+            "score": {
+              "value": 0.0028118372,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0028118372,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 159,
+            "score": {
+              "value": 0.01490822,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.01490822,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 159,
+            "score": {
+              "value": 0.005906329,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005906329,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 159,
+            "score": {
+              "value": 0.0011348724,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0011348724,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 159,
+            "score": {
+              "value": 0.03734144,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.03734144,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 159,
+            "score": {
+              "value": 0.02425329,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.02425329,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0645\u0648\u062a"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.33504707,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.33504707,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.047935467,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.047935467,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.17864552,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.17864552,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.34804323,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.34804323,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.023076924,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.023076924,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.033527173,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.033527173,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ur",
+      "sd",
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0631\u0627\u0627\u0627\u0627\u0626\u0639"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.015340924,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.015340924,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.0100069,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0100069,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.0037384033,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0037384033,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.00847251,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00847251,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.049336795,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.049336795,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 7,
+            "score": {
+              "value": 0.04065997,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.04065997,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0633\u0648\u0621 \u062a\u0637\u0628\u064a\u0642 \u0627\u0648\u0644 \u0645\u0627\u0628\u0639\u0631\u0641 \u0645\u0627 \u0627\u0639\u0645\u0644 \u062a\u0627\u0646\u064a \u0641\u064a \u062c\u0645\u064a\u0639 \u0627\u0644\u0627\u0639\u0644\u0627\u0646\u0627\u062a \u0633\u064a\u0621 \u062c\u062f\u0627"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 60,
+            "score": {
+              "value": 0.033570543,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.033570543,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 60,
+            "score": {
+              "value": 0.0036812867,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0036812867,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 60,
+            "score": {
+              "value": 0.006045496,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006045496,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 60,
+            "score": {
+              "value": 0.036651865,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.036651865,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 60,
+            "score": {
+              "value": 0.002746582,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002746582,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 60,
+            "score": {
+              "value": 0.09033044,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.09033044,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062d\u0644\u0648 \u0628\u0633 \u0645\u0627 \u0642\u062f\u0631\u062a \u0627\u0639\u0645\u0645\u0644 \u062d\u0633\u0627\u0628"
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.0016834025,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0016834025,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.013644327,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.013644327,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.0059419298,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0059419298,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.00806388,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00806388,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.010115679,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010115679,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.0006914139,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0006914139,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar",
+      "fa"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0645\u062a \u0639\u062c\u0628\u0646\u064a \u0644\u0627\u0646\u0647 \u0628\u0646 \u0646\u0627\u062f\u0631 \u0623\u0634\u0648\u0641 \u0634\u064a \u0645\u062d\u0644 \u0641\u064a \u062f\u0641\u0639 \u0646\u0642\u062f"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 44,
+            "score": {
+              "value": 0.0438942,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0438942,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 44,
+            "score": {
+              "value": 0.006977591,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006977591,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 44,
+            "score": {
+              "value": 0.004162259,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.004162259,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 44,
+            "score": {
+              "value": 0.031140719,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.031140719,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 44,
+            "score": {
+              "value": 0.0030136108,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0030136108,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 44,
+            "score": {
+              "value": 0.022190686,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.022190686,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0644\u062d\u0645\u062f\u0644\u0644\u0647 \u062a\u0645 \u0627\u0644\u062a\u0648\u0627\u0635\u0644 \u0645\u0639 \u0627\u0644\u0645\u0633\u0624\u0648\u0644\u064a\u0646 \u0639\u0646 \u0637\u0644\u0628\u0627\u062a \u0648\u0631\u062c\u0639\u0648\u0644\u064a \u0641\u062d\u0633\u0627\u0628 \u0637\u0644\u0628\u0627\u062a \u0628\u0627\u064a \u0645\u0628\u0644\u063a \u0627\u0644\u0645\u0646\u062a\u062c \u0627\u0644\u0644\u064a \u062c\u0647 \u063a\u0644\u0637 \u0628\u0635\u0631\u0627\u062d\u0647 \u062f\u0627 \u0632\u0648\u0642 \u0632\u064a\u0627\u062f\u0647 \u0631\u0628\u0646\u0627 \u064a\u0628\u0627\u0631\u0643\u0644\u0647\u0645 ...\u0628\u0633 \u0627\u0646\u0627 \u0627\u0644\u062c\u0628\u0646\u0647 \u0639\u0646\u062f\u064a \u0645\u0634 \u0639\u0627\u0631\u0641\u0647 \u0647\u062a\u0633\u062a\u0644\u0645\u0648\u0647\u0627 \u0627\u0632\u0627\u064a \u0627\u0646\u0627 \u0628\u0631\u062f\u0647 \u0645\u0634 \u0647\u0642\u0628\u0644 \u062d\u0627\u062c\u0647 \u0645\u0634 \u062f\u0641\u0639\u062a \u062a\u0645\u0646\u0647\u0627"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 205,
+            "score": {
+              "value": 0.02425329,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.02425329,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 205,
+            "score": {
+              "value": 0.04067813,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.04067813,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 205,
+            "score": {
+              "value": 0.027547138,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.027547138,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 205,
+            "score": {
+              "value": 0.003089321,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.003089321,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 205,
+            "score": {
+              "value": 0.0020980835,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0020980835,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 205,
+            "score": {
+              "value": 0.005890147,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005890147,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0634\u064a\u0621 \u0628\u062e\u0632\u064a \u0642\u0639\u062f\u062a \u0633\u0627\u0639\u0647 \u0623\u0633\u062a\u0646\u0649 \u0637\u0644\u0628 \u0648\u0627\u062e\u0631 \u0634\u064a\u0621 \u0643\u062a\u0628\u0648\u0644\u064a \u0637\u0644\u0628 \u0625\u0644\u063a\u0649 !!"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 56,
+            "score": {
+              "value": 0.07608539,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.07608539,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 56,
+            "score": {
+              "value": 0.025413504,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.025413504,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 56,
+            "score": {
+              "value": 0.00333786,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00333786,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 56,
+            "score": {
+              "value": 0.06546012,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.06546012,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 56,
+            "score": {
+              "value": 0.006537435,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006537435,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 56,
+            "score": {
+              "value": 0.004347248,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.004347248,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0668\u0660\u066a \u0645\u0646 \u0628\u063a\u062f\u0627\u062f \u0644\u0627 \u064a\u0645\u0643\u0646 \u0627\u0644\u062a\u0648\u0635\u064a\u0644 \u0627\u0644\u064a\u0647 \u0627\u062f\u0631\u064a \u0634\u0643\u0648 \u0645\u0633\u0648\u064a\u0646 \u0634\u0631\u0643\u0629 \u0648\u0645\u062a\u0639\u0628\u064a\u0646 \u0646\u0641\u0633\u0643\u0645 \u062c\u0627\u0646 \u062e\u0644\u064a\u062a\u0648 \u0627\u0644\u062f\u0644\u0641\u0631\u064a \u0645\u0627\u0644\u062a\u0643\u0645 \u064a\u062a\u0645\u0634\u0648\u0646 \u064a\u0645 \u0627\u0644\u0634\u0631\u0643\u0647 \u0628\u0633"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 112,
+            "score": {
+              "value": 0.007935578,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007935578,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 112,
+            "score": {
+              "value": 0.040910475,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.040910475,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 112,
+            "score": {
+              "value": 0.0816321,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0816321,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 112,
+            "score": {
+              "value": 0.052035484,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.052035484,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 112,
+            "score": {
+              "value": 0.00831604,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00831604,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 112,
+            "score": {
+              "value": 0.13388206,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.13388206,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0645\u0639\u0638\u0645 \u0627\u0644\u0645\u0637\u0627\u0639\u0645 \u064a\u062a\u0639\u0630\u0631 \u0627\u0644\u062a\u0648\u0635\u064a\u0644 \u0644\u0647\u0627"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 30,
+            "score": {
+              "value": 0.017743196,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.017743196,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 30,
+            "score": {
+              "value": 0.061444655,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.061444655,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 30,
+            "score": {
+              "value": 0.007521313,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007521313,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 30,
+            "score": {
+              "value": 0.021398475,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.021398475,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 30,
+            "score": {
+              "value": 0.013043936,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.013043936,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 30,
+            "score": {
+              "value": 0.0014972687,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0014972687,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0635\u0628\u062d \u0627\u062f\u0646\u0649 \u062d\u062f \u0644\u0644\u0637\u0644\u0628 \u062f\u064a\u0646\u0627\u0631\u064a\u0646 !!"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 29,
+            "score": {
+              "value": 0.019032324,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.019032324,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 29,
+            "score": {
+              "value": 0.012995303,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012995303,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 29,
+            "score": {
+              "value": 0.0029228306,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0029228306,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 29,
+            "score": {
+              "value": 0.032391842,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.032391842,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 29,
+            "score": {
+              "value": 0.006440342,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006440342,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 29,
+            "score": {
+              "value": 0.0012302399,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0012302399,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0636 \u0643\u063a\u0648\u062e\u0637.\u0663\u062c \u0624\u0621\u0647\u0632\u0660 \u0628\u0637\u062e\u062c\u0627.\u0630\u0642\u0643 \u0629 \u0660\u0669 \u062a\u062d \u0638\u0632\u0644. \u0638\u062d"
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 42,
+            "score": {
+              "value": 0.00932346,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00932346,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 42,
+            "score": {
+              "value": 0.055026773,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.055026773,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 42,
+            "score": {
+              "value": 0.005302429,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005302429,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 42,
+            "score": {
+              "value": 0.011793415,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.011793415,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 42,
+            "score": {
+              "value": 0.025413504,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.025413504,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 42,
+            "score": {
+              "value": 0.044668075,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.044668075,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0641\u0627\u0634\u0644"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.010990778,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010990778,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.059311368,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.059311368,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.44573322,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.44573322,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.26189584,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.26189584,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.023076924,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.023076924,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.46923602,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.46923602,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0628\u062a\u062e\u0632\u064a"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.00705719,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00705719,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.009929225,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009929225,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.012240025,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012240025,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.094219476,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.094219476,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.15269235,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.15269235,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 5,
+            "score": {
+              "value": 0.05086332,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.05086332,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar",
+      "fa"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0639\u0631\u0648\u0636 \u0633\u062e\u064a\u0641\u0629 \u0628\u0627\u0644\u0645\u0642\u0627\u0631\u0646\u0629 \u0645\u0639 \u062a\u0637\u0628\u064a\u0642\u0627\u062a \u0627\u0644\u062a\u0648\u0635\u064a\u0644 \u0627\u0644\u0623\u062e\u0631\u0649"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 46,
+            "score": {
+              "value": 0.44933176,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.44933176,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 46,
+            "score": {
+              "value": 0.007624879,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007624879,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 46,
+            "score": {
+              "value": 0.008546505,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008546505,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 46,
+            "score": {
+              "value": 0.27342406,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.27342406,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 46,
+            "score": {
+              "value": 0.015931819,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.015931819,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 46,
+            "score": {
+              "value": 0.37166002,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.37166002,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062e\u062f\u0645\u0629 \u062c\u064a\u062f\u0629 \u062c\u062f\u0627 \u0648\u0645\u0645\u062a\u0627\u0632\u0629 \u064a\u0648\u062c\u062f \u0628\u0647 \u0643\u0644 \u0645\u0627\u062a\u0631\u064a\u062f \u0645\u0646 \u0633\u0648\u0628\u0631 \u0645\u0627\u0631\u0643\u062a \u0648\u0645\u0637\u0627\u0639\u0645 \u0634\u0647\u064a\u0631\u0647 \u0648\u0627\u0644\u0639\u062f\u064a\u062f \u0645\u0646 \u0627\u0644\u0627\u0634\u064a\u0627\u0621"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 85,
+            "score": {
+              "value": 0.0081208795,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0081208795,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 85,
+            "score": {
+              "value": 0.005566503,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005566503,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 85,
+            "score": {
+              "value": 0.0014891637,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0014891637,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 85,
+            "score": {
+              "value": 0.00823077,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00823077,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 85,
+            "score": {
+              "value": 0.000538826,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.000538826,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 85,
+            "score": {
+              "value": 0.010723713,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010723713,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062b\u062b\u062b3\u062b\u063522\u0635\u0635\u0635"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 11,
+            "score": {
+              "value": 0.010070801,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010070801,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 11,
+            "score": {
+              "value": 0.008546505,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008546505,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 11,
+            "score": {
+              "value": 0.11367676,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.11367676,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 11,
+            "score": {
+              "value": 0.010628296,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010628296,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 11,
+            "score": {
+              "value": 0.10611444,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.10611444,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 11,
+            "score": {
+              "value": 0.019934712,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.019934712,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062e\u0645\u0633 \u0646\u062c\u0648\u0645"
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.006474625,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006474625,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.008323951,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008323951,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.020783609,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.020783609,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.002040863,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002040863,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.031684756,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.031684756,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.013174911,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.013174911,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0628\u0633 \u062f\u0639\u0627\u064a\u0647 .\u0644\u0627\u064a\u062f\u0639\u0645 \u0627\u0644\u062a\u0648\u0635\u064a\u0644 \u0644\u0644\u0627\u0645\u064a\u0646 \u0627\u0644\u062b\u0627\u0646\u064a\u0647.."
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.014732921,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.014732921,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.019226074,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.019226074,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.011970525,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.011970525,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.001077652,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.001077652,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.00598724,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00598724,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.0047727237,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0047727237,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062a\u0637\u0628\u064a\u0642 \u0631\u0627\u0626\u0639"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.022846194,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.022846194,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.0020694733,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0020694733,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.010096892,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010096892,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.00866054,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00866054,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.020510335,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.020510335,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.0054756827,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0054756827,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0632\u064a \u0627\u0644\u0632\u0641\u062a \u0648\u0641\u064a \u0645\u0634\u0643\u0644\u0647 \u0648\u0628\u0639\u0645\u0644 \u062e\u0644\u0644 \u0641\u064a \u0627\u0644\u062c\u0647\u0627\u0632 \u0648\u0645\u0634 \u0628\u064a\u0631\u0636\u0647 \u064a\u062a\u062d\u062f\u062b"
+  },
+  "response": {
+    "attributeScores": {
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 54,
+            "score": {
+              "value": 0.28593817,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.28593817,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 54,
+            "score": {
+              "value": 0.31825066,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.31825066,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 54,
+            "score": {
+              "value": 0.023076924,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.023076924,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 54,
+            "score": {
+              "value": 0.009048914,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009048914,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 54,
+            "score": {
+              "value": 0.024198212,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.024198212,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 54,
+            "score": {
+              "value": 0.31740165,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.31740165,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0628\u062f\u0648\u0646 \u0627\u064a \u0643\u0630\u0628 \u0647\u0627\u0630\u0627 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u064a\u062c\u0646\u0646 \u0648\u0644\u0627 \u062a\u0647\u062a\u0645\u0648 \u0644\u062a\u0639\u0644\u064a\u0642\u0627\u062a \u0627\u0644\u062e\u0627\u064a\u0633\u0647 \u0634\u0643\u0631\u0627 \u0639\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u0628\u0631\u0646\u0627\u0645\u062c"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 78,
+            "score": {
+              "value": 0.008926392,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008926392,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 78,
+            "score": {
+              "value": 0.0068999166,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0068999166,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 78,
+            "score": {
+              "value": 0.12158839,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.12158839,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 78,
+            "score": {
+              "value": 0.18364124,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.18364124,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 78,
+            "score": {
+              "value": 0.011247349,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.011247349,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 78,
+            "score": {
+              "value": 0.089778624,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.089778624,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0644\u0627 \u064a\u0639\u0645\u0644 \u0628\u0633\u0628\u0628 \u0627\u0646\u062a\u0638\u0631 \u0631\u0645\u0632"
+  },
+  "response": {
+    "attributeScores": {
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 22,
+            "score": {
+              "value": 0.019212283,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.019212283,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 22,
+            "score": {
+              "value": 0.007948523,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007948523,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 22,
+            "score": {
+              "value": 0.012338906,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012338906,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 22,
+            "score": {
+              "value": 0.0036812867,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0036812867,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 22,
+            "score": {
+              "value": 0.037577134,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.037577134,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 22,
+            "score": {
+              "value": 0.0016117096,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0016117096,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0633\u0639\u0627\u0631 \u0623\u0639\u0644\u0649 \u0628\u0646\u0633\u0628 \u062a\u062a\u062c\u0627\u0648\u0632 \u0627\u0644\u0667\u0660\u066a \u0645\u0646 \u0627\u0644\u0645\u0637\u0627\u0639\u0645 \u062a\u062c\u0627\u0631\u0628 \u062a\u0648\u0635\u064a\u0644 \u0633\u064a\u0626\u0629 \u062c\u062f\u0627 \u0645\u0634\u0627\u0643\u0644 \u0641\u064a \u062f\u0641\u0639 \u0627\u0644\u0641\u064a\u0632\u0627 \u062a\u0637\u0628\u064a\u0642 \u0644\u0627 \u064a\u0633\u062a\u062d\u0642 \u062d\u062c\u0645\u0647 \u0639\u0644\u0649 \u0627\u0644\u0645\u0648\u0628\u0627\u064a\u0644 (uninstall)"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 125,
+            "score": {
+              "value": 0.0012397766,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0012397766,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 125,
+            "score": {
+              "value": 0.015283971,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.015283971,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 125,
+            "score": {
+              "value": 0.02051482,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.02051482,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 125,
+            "score": {
+              "value": 0.0058059995,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0058059995,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 125,
+            "score": {
+              "value": 0.0028118372,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0028118372,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 125,
+            "score": {
+              "value": 0.03545588,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.03545588,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\ufffd\ufffd"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 2,
+            "score": {
+              "value": 0.0015449524,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0015449524,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 2,
+            "score": {
+              "value": 0.004088263,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.004088263,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 2,
+            "score": {
+              "value": 0.016587202,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.016587202,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 2,
+            "score": {
+              "value": 0.008747884,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008747884,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 2,
+            "score": {
+              "value": 0.007521313,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007521313,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 2,
+            "score": {
+              "value": 0.018255826,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.018255826,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "und"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0628\u0631\u0646\u0627\u0645\u062c \u0632\u0628\u0627\u0644\u0647 \u0645\u0634 \u0639\u0627\u064a\u0632 \u064a\u062d\u0645\u0644 \u062e\u0627\u0644\u0635 \u0639\u0644 3\u0627\u062c\u0647\u0632\u0647 \u0645\u0634 \u0631\u0627\u0636\u064a \u064a\u062d\u0645\u0644 \u0646\u0647\u0621\u064a"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 58,
+            "score": {
+              "value": 0.020902663,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.020902663,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 58,
+            "score": {
+              "value": 0.110259406,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.110259406,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 58,
+            "score": {
+              "value": 0.008285114,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008285114,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 58,
+            "score": {
+              "value": 0.25462922,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.25462922,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 58,
+            "score": {
+              "value": 0.012240025,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012240025,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 58,
+            "score": {
+              "value": 0.2963245,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.2963245,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0645\u0646 \u0627\u0644\u062a\u062c\u0627\u0631\u0628 \u0627\u0644\u0633\u064a\u0626\u0629 \u0637\u0644\u0628\u062a \u0645\u0646 \u0646\u0648\u0631 \u0627\u0644\u0628\u062e\u0627\u0631\u064a (\u0627\u0644\u0628\u062d\u0631\u064a\u0646) \u0627\u0648\u0631\u062f\u0631 \u0648\u0627\u0644\u0637\u0644\u0628 \u0648\u0635\u0644 \u0646\u0627\u0642\u0635 \u0627\u062a\u0648\u0627\u0635\u0644\u062a \u0645\u0639 \u0635\u0627\u062d\u0628 \u0627\u0644\u0645\u0637\u0639\u0645 \u0648\u0645\u0639 \u0637\u0644\u0628\u0627\u062a \u0648\u0627\u0646\u062a\u0638\u0631 \u0627\u0644\u0637\u0644\u0628 \u0644\u0645\u062f\u0629 \u0633\u0627\u0639\u062a\u064a\u0646 \u0648\u0644\u0645 \u064a\u0623\u062a\u064a \u0644\u064a\u0633\u062a \u0647\u0630\u0629 \u0627\u0644\u0645\u0631\u0629 \u0627\u0644\u0623\u0648\u0644\u0649 \u0627\u0644\u062a\u064a \u064a\u062d\u062f\u062b \u0645\u062b\u0644 \u0647\u0630\u0627 \u0627\u0644\u0623\u0645\u0631 \u0641\u0642\u062f \u062a\u0643\u0631\u0631 \u062b\u0644\u0627\u062b \u0645\u0631\u0627\u062a \u0633\u0627\u0628\u0642\u0629 \u0645\u0639 \u0645\u0637\u0639\u0645 \u0627\u0644\u0628\u064a\u0643 \u0627\u0646\u0627 \u0628\u062d\u0630\u0641 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \ud83d\ude21\ud83d\ude21"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 243,
+            "score": {
+              "value": 0.0037956238,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0037956238,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 243,
+            "score": {
+              "value": 0.04207976,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.04207976,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 243,
+            "score": {
+              "value": 0.006848133,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006848133,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 243,
+            "score": {
+              "value": 0.09112182,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.09112182,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 243,
+            "score": {
+              "value": 0.007288578,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007288578,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 243,
+            "score": {
+              "value": 0.029460056,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.029460056,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0628\u0631\u0646\u0627\u0645\u062c \u0642\u0630\u0631"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.43230394,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.43230394,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.29053202,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.29053202,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.020515325,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.020515325,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.008531082,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008531082,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.34203702,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.34203702,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.0233943,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0233943,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0645\u0645\u064a\u0632"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.0024604797,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0024604797,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.007473567,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007473567,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.02522431,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.02522431,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.017614283,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.017614283,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.008427517,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008427517,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 4,
+            "score": {
+              "value": 0.041915078,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.041915078,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0627\u0635\u0628\u062d \u0633\u064a\u0621 \u062c\u062f\u0627 \u0648\u0627\u0644\u062a\u0643\u0644\u0641\u0629 \u0627\u0635\u0628\u062d\u062a \u0645\u0631\u062a\u0641\u0639\u0629 \u0643\u0627\u0646 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0627\u0644\u0645\u0641\u0636\u0644 \u0628\u0646\u0633\u0628\u0629 \u0644\u064a \u0648\u0643\u0646\u062a \u0627\u062a\u0635\u0641\u062d\u0647 \u0648\u0627\u0633\u062a\u062e\u062f\u0645\u0647 \u064a\u0648\u0645\u064a\u0627 \u0644\u0643\u0646 \u0627\u0644\u0627\u0646 \u0627\u0635\u0628\u062d \u0645\u062e\u064a\u0628 \u0644\u0644\u0627\u0645\u0627\u0644"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 123,
+            "score": {
+              "value": 0.0060325502,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0060325502,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 123,
+            "score": {
+              "value": 0.001821518,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.001821518,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 123,
+            "score": {
+              "value": 0.023721304,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.023721304,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 123,
+            "score": {
+              "value": 0.0314771,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0314771,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 123,
+            "score": {
+              "value": 0.0032558115,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0032558115,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 123,
+            "score": {
+              "value": 0.067380086,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.067380086,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0646\u0627 \u0627\u062d\u0628 \u0643\u0644 \u0634\u064a \u0641\u064a\u0647"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 17,
+            "score": {
+              "value": 0.008466354,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008466354,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 17,
+            "score": {
+              "value": 0.0032043457,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0032043457,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 17,
+            "score": {
+              "value": 0.030639706,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.030639706,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 17,
+            "score": {
+              "value": 0.013478912,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.013478912,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 17,
+            "score": {
+              "value": 0.0076215584,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0076215584,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 17,
+            "score": {
+              "value": 0.044883765,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.044883765,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0627\u0632\u0628\u0644 \u0648\u0627\u062d\u0642\u0631 \u0648\u0627\u0648\u0633\u062e \u0628\u0631\u0646\u0627\u0645\u062c \u0648\u0645\u0648\u0638\u0641\u064a\u0646 \u0648\u0633\u0627\u062e\u0647 \u0648\u0646\u0635\u0628 \u0645\u0634 \u0637\u0628\u064a\u0639\u064a"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 51,
+            "score": {
+              "value": 0.47357693,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.47357693,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 51,
+            "score": {
+              "value": 0.47119883,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.47119883,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 51,
+            "score": {
+              "value": 0.4193644,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.4193644,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 51,
+            "score": {
+              "value": 0.45895407,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.45895407,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 51,
+            "score": {
+              "value": 0.05236103,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.05236103,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 51,
+            "score": {
+              "value": 0.17614605,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.17614605,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062c\u064a\u062f"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.008531082,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008531082,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.020442016,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.020442016,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.011046898,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.011046898,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.0021648407,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0021648407,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.00621564,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00621564,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.026970858,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.026970858,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0645\u0645\u064a\u0632 \u0643\u062b\u064a\u0631. .............."
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.018849092,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.018849092,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.0011396408,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0011396408,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.002885833,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002885833,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.010476895,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010476895,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.006912862,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006912862,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 25,
+            "score": {
+              "value": 0.013371054,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.013371054,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062d\u0644\u0648"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.033806015,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.033806015,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.006511623,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006511623,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.012832909,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.012832909,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.024199532,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.024199532,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.008634649,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008634649,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 3,
+            "score": {
+              "value": 0.002374649,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002374649,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0643\u0627\u0646 \u0627\u0641\u0636\u0644 \u062a\u0637\u0628\u064a\u0642 \u0628\u0639\u062f\u064a\u0646 \u0633\u0631\u0642 \u0645\u0646 \u0627\u062e\u062a\u064a 6 \u062f\u064a\u0646\u0627\u0631 \u0648 \u0633\u0643\u0631\u0648 \u062e\u0633\u0627\u0628 \u0627\u062e\u062a\u064a \u0639\u0634\u0627\u0646 \u0645\u0627 \u062a\u0634\u062a\u0643\u064a \u0644\u0627\u062d\u062f \u064a\u062d\u0645\u0644 \u0639\u0634\u0627\u0646 \u0645\u0627 \u064a\u0635\u064a\u0631 \u0646\u0641\u0633 \u0627\u062e\u062a\u064a \u0644\u062d\u062f \u0627\u0644\u0627\u0646 \u0645\u0627\u0631\u062f\u0648 \u0627\u0644\u0641\u0644\u0648\u0633 \u0646\u0635\u064a\u062d\u0647 \u0645\u0646\u064a"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 135,
+            "score": {
+              "value": 0.005722046,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005722046,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 135,
+            "score": {
+              "value": 0.008361516,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008361516,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 135,
+            "score": {
+              "value": 0.05027775,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.05027775,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 135,
+            "score": {
+              "value": 0.10913446,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.10913446,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 135,
+            "score": {
+              "value": 0.06546012,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.06546012,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 135,
+            "score": {
+              "value": 0.0070552654,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0070552654,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0628\u0631\u0646\u0627\u0645\u062c \u062d\u0631\u0627\u0645\u0649 \u0637\u0644\u0628\u062a \u0645\u0646 \u0632\u0627\u0643\u0633 \u0623\u0648\u0631\u062f\u0631 \u0663 \u0633\u0627\u0646\u062f\u0648\u062a\u0634 \u062f\u0627\u0628\u0644 \u0628 \u0668\u0660 \u062c\u0646\u064a\u0647 \u0644\u0644\u0648\u0627\u062d\u062f \u0628\u0639\u062a\u0648\u0644\u0649 \u0663 \u0633\u0646\u062f\u0648\u062a\u0634\u0627\u062a \u0633\u0646\u062c\u0644 \u0628 \u0666\u0665 \u062c\u0646\u064a\u0647 \u0627\u0644\u0648\u0627\u062d\u062f \u0648\u062d\u0627\u0633\u0628\u0648\u0646\u0649 \u0639\u0644\u0649 \u0623\u0633\u0639\u0627\u0631 \u0627\u0644\u062f\u0627\u0628\u0644 \u064a\u0639\u0646\u0649 \u0664\u0665 \u062c\u0646\u064a\u0647 \u0641\u0631\u0642"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 146,
+            "score": {
+              "value": 0.09525062,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.09525062,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 146,
+            "score": {
+              "value": 0.034451995,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.034451995,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 146,
+            "score": {
+              "value": 0.0063885585,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0063885585,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 146,
+            "score": {
+              "value": 0.007806548,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007806548,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 146,
+            "score": {
+              "value": 0.096805766,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.096805766,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 146,
+            "score": {
+              "value": 0.0059890747,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0059890747,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062a\u0637\u0628\u064a\u0642 \u062c\u062f\u0627\u064b \u062c\u0645\u064a\u0644 \u0634\u0643\u0631\u0627 \u0644\u062c\u0647\u0648\u062f\u0643\u0645"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.0015163422,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0015163422,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.014702292,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.014702292,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.008103873,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008103873,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.0040142676,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0040142676,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.008519882,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008519882,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.015659723,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.015659723,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0645\u0645\u0645\u0645\u0645\u062a\u0627\u0632"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.008531082,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008531082,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.011844902,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.011844902,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.034041706,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.034041706,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.0058826595,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0058826595,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.025907494,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.025907494,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.0026130676,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0026130676,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar",
+      "fa",
+      "en-Arab"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062a\u0637\u0628\u064a\u0642 \u0641\u0627\u0634\u0644"
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.013546381,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.013546381,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.0076766624,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0076766624,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.28547668,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.28547668,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.007247925,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007247925,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.16773392,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.16773392,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 10,
+            "score": {
+              "value": 0.1352073,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.1352073,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062a\u062c\u0631\u0628\u0647 \u0646\u0627\u062c\u062d\u0647 \u0645\u0639\u0647 \u0637\u0644\u0628\u0627\u062a \u0627\u062d\u0633\u0646\u062a\u0645"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.010304171,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010304171,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.008785884,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008785884,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.0016464046,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0016464046,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.00066280365,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00066280365,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.0059678215,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0059678215,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 28,
+            "score": {
+              "value": 0.011543535,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.011543535,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0639\u0630\u0631\u0627 \u0623\u064a\u0634 \u0627\u0644\u0641\u0627\u0626\u062f\u0629 \u0645\u0639\u0638\u0645 \u0627\u0644\u0645\u0648\u0627\u0642\u0639 \u064a\u062a\u0639\u0630\u0631 \u0627\u0644\u062a\u0648\u0635\u064a\u0644 \u0644\u0647\u0627 \u060c \u062e\u0627\u0635\u0627\u064b \u0645\u062d\u0644\u0627\u062a \u0627\u0644\u0628\u0642\u0627\u0644\u0629 \u0642\u0644\u064a\u0644\u0647 \u0641\u064a \u0627\u0644\u0628\u0631\u0646\u0627\u0645\u062c\u060c \u0627\u0644\u0645\u0637\u0627\u0639\u0645 \u0645\u0648\u062c\u0648\u062f\u0647 \u0628\u0643\u062b\u0631\u0629 \u060c.. \u062e\u062f\u0645\u0647 \u0645\u0645\u062a\u0627\u0632\u0647 \u0644\u0643\u0646 \u064a\u062d\u062a\u0627\u062c \u0644\u0647\u0627 \u0627\u0644\u062a\u0637\u0648\u064a\u0631 ."
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 149,
+            "score": {
+              "value": 0.0008916855,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0008916855,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 149,
+            "score": {
+              "value": 0.017026093,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.017026093,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 149,
+            "score": {
+              "value": 0.005702433,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.005702433,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 149,
+            "score": {
+              "value": 0.002090379,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002090379,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 149,
+            "score": {
+              "value": 0.015416925,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.015416925,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 149,
+            "score": {
+              "value": 0.020607091,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.020607091,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0633\u064a\u0621 \u062c\u062f\u0627\u064b"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.25462922,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.25462922,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.092279755,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.092279755,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.06687108,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.06687108,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.018771807,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.018771807,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.009981008,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009981008,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.007171631,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007171631,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "Wo \ud83d\ude4c\ud83d\ude4c\ud83d\udc8b\ud83d\udc8b\ud83d\udc8b\ud83d\udc8b\ud83d\udc8b\ud83d\udc8b\ud83d\udc99\ud83d\udc99\ud83d\udc99\u2764\u2764\ud83d\udc96\ud83d\udc96\ud83d\udc96\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d\ud83d\udc4c"
+  },
+  "response": {
+    "attributeScores": {
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.0058416002,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0058416002,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.0012116798,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0012116798,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.014703264,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.014703264,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.006722843,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006722843,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.0013065338,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0013065338,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.0066293706,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0066293706,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "de",
+      "zh-Latn",
+      "yo",
+      "en"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062a\u0637\u0628\u064a\u0642 \u0633\u0626 \u0644\u0627 \u064a\u062a\u0639\u0627\u0645\u0644 \u0628\u062c\u062f\u064a\u0629 \u0641\u064a \u0627\u0644\u0639\u0631\u0648\u0636 \u0648 \u0627\u0644\u0642\u0633\u0627\u0626\u0645 \u0648\u0627\u064a\u0636\u0627 \u0644\u0627 \u064a\u062a\u0639\u0627\u0645\u0644 \u0645\u0639 \u0627\u0644\u0645\u0643\u062a\u0628\u0627\u062a"
+  },
+  "response": {
+    "attributeScores": {
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 72,
+            "score": {
+              "value": 0.002746582,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002746582,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 72,
+            "score": {
+              "value": 0.027820412,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.027820412,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 72,
+            "score": {
+              "value": 0.10696511,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.10696511,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 72,
+            "score": {
+              "value": 0.006149062,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.006149062,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 72,
+            "score": {
+              "value": 0.05964688,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.05964688,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 72,
+            "score": {
+              "value": 0.0052166977,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0052166977,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0644\u0627\u064a\u062f\u0639\u0645 \u0627\u0644\u0639\u0631\u0627\u0642"
+  },
+  "response": {
+    "attributeScores": {
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 13,
+            "score": {
+              "value": 0.10409598,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.10409598,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 13,
+            "score": {
+              "value": 0.00831604,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00831604,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 13,
+            "score": {
+              "value": 0.023243073,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.023243073,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 13,
+            "score": {
+              "value": 0.15158679,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.15158679,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 13,
+            "score": {
+              "value": 0.009100696,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009100696,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 13,
+            "score": {
+              "value": 0.0623257,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0623257,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0641\u064a\u0648 \u0627\u062d\u062a\u064a\u0644"
+  },
+  "response": {
+    "attributeScores": {
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 9,
+            "score": {
+              "value": 0.18728738,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.18728738,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 9,
+            "score": {
+              "value": 0.28674445,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.28674445,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 9,
+            "score": {
+              "value": 0.009463178,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.009463178,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 9,
+            "score": {
+              "value": 0.025203101,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.025203101,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 9,
+            "score": {
+              "value": 0.1413768,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.1413768,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 9,
+            "score": {
+              "value": 0.010223389,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010223389,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u062c\u062d\u0647\u0646\u0646\u0627\u063a\u0646\u0645\u062c\u0638 \u062c\u062d\u062e\u062a\u0627\u0649\u0629\u0632\u0648\u0646\u0647\ud83d\ude0b\ud83d\ude0b\ud83d\ude0b\ud83d\ude0b\ud83d\ude0b\ud83d\ude0b\ud83d\ude0b\ud83d\ude0b\ud83d\ude0b"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.13561769,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.13561769,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.017222947,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.017222947,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.010162249,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.010162249,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.04032305,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.04032305,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.14049543,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.14049543,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 41,
+            "score": {
+              "value": 0.018369852,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.018369852,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ug",
+      "ckb",
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0639\u0631\u0648\u0636 \u0643\u0630\u0628"
+  },
+  "response": {
+    "attributeScores": {
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.21107252,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.21107252,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.0039863586,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0039863586,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.00828752,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.00828752,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.0810151,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0810151,
+          "type": "PROBABILITY"
+        }
+      },
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.0569429,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0569429,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 8,
+            "score": {
+              "value": 0.007961469,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.007961469,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+},{
+  "fileID": {
+    "fileID": "636957f07d88d199bc032022"
+  },
+  "comment": {
+    "comment": "\u0644\u0627 \u064a\u0633\u062a\u062d\u0642 \u0648\u0644\u0627 \u0646\u062c\u0645\u0647 \u062d\u062f\u062f\u062a \u0627\u0644\u0645\u0648\u0642\u0639 \u0634\u0627\u0631\u0639 \u0627\u0644\u0632\u0639\u0641\u0631\u0627\u0646\u064a\u0629 \u0627\u0644\u0639\u0627\u0645 \u0648\u0644\u0627 \u064a\u0648\u062c\u062f \u062a\u0648\u0635\u064a\u0644 \u0644\u0647\u0630\u0647 \u0627\u0644\u0645\u0646\u0637\u0642\u0629 \u0648\u0644\u0644\u0639\u0644\u0645 \u0627\u0644\u0632\u0639\u0641\u0631\u0627\u0646\u064a\u0629 \u0645\u0646 \u0645\u0631\u0643\u0632 \u0627\u0644\u0645\u062d\u0627\u0641\u0638\u0629 \u0641\u0643\u064a\u0641 \u0627\u0644\u062d\u0627\u0644 \u0628\u0627\u0637\u0631\u0627\u0641 \u0627\u0644\u0645\u062d\u0627\u0641\u0638\u0629"
+  },
+  "response": {
+    "attributeScores": {
+      "PROFANITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 141,
+            "score": {
+              "value": 0.015454767,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.015454767,
+          "type": "PROBABILITY"
+        }
+      },
+      "SEVERE_TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 141,
+            "score": {
+              "value": 0.002937317,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.002937317,
+          "type": "PROBABILITY"
+        }
+      },
+      "IDENTITY_ATTACK": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 141,
+            "score": {
+              "value": 0.0068076057,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.0068076057,
+          "type": "PROBABILITY"
+        }
+      },
+      "INSULT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 141,
+            "score": {
+              "value": 0.032028005,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.032028005,
+          "type": "PROBABILITY"
+        }
+      },
+      "TOXICITY": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 141,
+            "score": {
+              "value": 0.059727192,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.059727192,
+          "type": "PROBABILITY"
+        }
+      },
+      "THREAT": {
+        "spanScores": [
+          {
+            "begin": 0,
+            "end": 141,
+            "score": {
+              "value": 0.008065036,
+              "type": "PROBABILITY"
+            }
+          }
+        ],
+        "summaryScore": {
+          "value": 0.008065036,
+          "type": "PROBABILITY"
+        }
+      }
+    },
+    "languages": [
+      "en"
+    ],
+    "detectedLanguages": [
+      "ar"
+    ]
+  }
+}]
