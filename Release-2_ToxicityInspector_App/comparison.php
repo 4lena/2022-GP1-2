@@ -42,72 +42,72 @@ if ($selectedOption != 'option3') {
 
   $CSVfp1 = fopen('/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . '.csv', "r");
   $trainFile = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . 'train.csv';
-    $data1 = fgetcsv($CSVfp1, 1000, ",");
+  $data1 = fgetcsv($CSVfp1, 1000, ",");
 
-    $labelFlag1 = false;
-    $index1 = -1;
-    if (!empty($data1)) {
-      if (isset($data1[0]) && str_contains($data1[0], 'toxic')) {
-        $labelFlag1 = true;
-        $index1 = 0;
-      } else if (isset($data1[1]) && str_contains($data1[1], 'toxic')) {
+  $labelFlag1 = false;
+  $index1 = -1;
+  if (!empty($data1)) {
+    if (isset($data1[0]) && str_contains($data1[0], 'toxic')) {
+      $labelFlag1 = true;
+      $index1 = 0;
+    } else if (isset($data1[1]) && str_contains($data1[1], 'toxic')) {
+      $labelFlag1 = true;
+      $index1 = 1;
+    } else if (isset($data1[2]) && str_contains($data1[2], 'toxic')) {
+      $labelFlag1 = true;
+      $index1 = 2;
+    } elseif (isset($data1[3]) && str_contains($data1[3], 'toxic')) {
+      $labelFlag1 = true;
+      $index1 = 3;
+    }
+  }
+  $CSVfp2 = fopen('/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . '.csv', "r");
+  $trainFile2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . 'train.csv';
+  if (!file_exists($trainFile2)) {
+    $labelFlag2 = false;
+    $index2 = -1;
+    $data2 = fgetcsv($CSVfp2, 1000, ",");
+    if (!empty($data2)) {
+      if (isset($data2[0]) && str_contains($data2[0], 'toxic')) {
+        $labelFlag2 = true;
+        $index2 = 0;
+      } else if (isset($data2[1]) && str_contains($data2[1], 'toxic')) {
+        $labelFlag2 = true;
+        $index2 = 1;
+      } else if (isset($data2[2]) && str_contains($data2[2], 'toxic')) {
+        $labelFlag2 = true;
+        $index2 = 2;
+      } else if (isset($data2[3]) && str_contains($data2[3], 'toxic')) {
+        $labelFlag2 = true;
+        $index2 = 3;
+      }
+    }
+  }
+  $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . '.csv';
+  $csv2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . '.csv';
+  if (!($labelFlag1)) {
+    $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . 'API.csv';
+    if (file_exists($csv1)) {
+      $CSVfp1 = fopen($csv1, "r");
+      $data1 = fgetcsv($CSVfp1, 1000, ",");
+      if (!empty($data1)) {
         $labelFlag1 = true;
         $index1 = 1;
-      } else if (isset($data1[2]) && str_contains($data1[2], 'toxic')) {
-        $labelFlag1 = true;
-        $index1 = 2;
-      } elseif (isset($data1[3]) && str_contains($data1[3], 'toxic')) {
-        $labelFlag1 = true;
-        $index1 = 3;
       }
     }
-    $CSVfp2 = fopen('/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . '.csv', "r");
-    $trainFile2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . 'train.csv';
-    if (!file_exists($trainFile2)) {
-      $labelFlag2 = false;
-      $index2 = -1;
+  }
+  if (!file_exists($trainFile2) && !($labelFlag2)) {
+    $csv2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . 'API.csv';
+    if (file_exists($csv2)) {
+      $CSVfp2 = fopen($csv2, "r");
       $data2 = fgetcsv($CSVfp2, 1000, ",");
       if (!empty($data2)) {
-        if (isset($data2[0]) && str_contains($data2[0], 'toxic')) {
-          $labelFlag2 = true;
-          $index2 = 0;
-        } else if (isset($data2[1]) && str_contains($data2[1], 'toxic')) {
-          $labelFlag2 = true;
-          $index2 = 1;
-        } else if (isset($data2[2]) && str_contains($data2[2], 'toxic')) {
-          $labelFlag2 = true;
-          $index2 = 2;
-        } else if (isset($data2[3]) && str_contains($data2[3], 'toxic')) {
-          $labelFlag2 = true;
-          $index2 = 3;
-        }
+        $labelFlag2 = true;
+        $index2 = 1;
       }
     }
-    $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . '.csv';
-    $csv2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . '.csv';
-    if (!($labelFlag1)) {
-      $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . 'API.csv';
-      if (file_exists($csv1)) {
-        $CSVfp1 = fopen($csv1, "r");
-        $data1 = fgetcsv($CSVfp1, 1000, ",");
-        if (!empty($data1)) {
-          $labelFlag1 = true;
-          $index1 = 1;
-        }
-      }
-    }
-    if (!file_exists($trainFile2)&&!($labelFlag2)) {
-      $csv2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . 'API.csv';
-      if (file_exists($csv2)) {
-        $CSVfp2 = fopen($csv2, "r");
-        $data2 = fgetcsv($CSVfp2, 1000, ",");
-        if (!empty($data2)) {
-          $labelFlag2 = true;
-          $index2 = 1;
-        }
-      }
-    }
-  
+  }
+
 
   if (!file_exists($trainFile) && !file_exists($csv1) && !($labelFlag1)) { //if the csv files is not created yet
     echo '<script>alert("In order to compare you have to check the overall toxicity for ' . $file1['FileName'] . ' file!");</script>';
@@ -212,7 +212,7 @@ if ($selectedOption == 'option3') {
       for ($i = 0; $i < count($entriesT2); $i++) {
         $entriesTf[] = $entriesT2[$i];
       }
-      $row2= $row2-2;
+      $row2 = $row2 - 2;
       $feedbackComments += $row2;
 
       fclose($handle);
@@ -242,16 +242,29 @@ if ($selectedOption == 'option3') {
       for ($i = 0; $i < count($entriesT2); $i++) {
         $entriesTf[] = $entriesT2[$i];
       }
-      $row2= $row2-2;
+      $row2 = $row2 - 2;
       $feedbackComments += $row2;
 
       fclose($handle);
     }
   }
-  echo '<script>alert("count ' . count($entriesC2) . '");</script>';
-  echo '<script>alert("feedbackComments' . $feedbackComments . '");</script>';
-  $entriesCf = array_filter($entriesCf);
-  $entriesTf = array_filter($entriesTf);
+  // echo '<script>alert("count ' . count($entriesC2) . '");</script>';
+  // echo '<script>alert("feedbackComments' . $feedbackComments . '");</script>';
+
+  asort($entriesTf);
+  asort($entriesCf);
+  // $entriesCf = array_filter($entriesCf);
+  // $entriesTf = array_filter($entriesTf);
+  $filename = 'Uploads/' . $file1['_id'] . 'feedback.csv';
+  $f = fopen($filename, 'w');
+  if ($f == true) {
+    $head = array('comment_text', 'toxic');
+    fputcsv($f, $head);
+    for ($i = 0; $i < count($entriesCf); $i++) {
+      $row = array($entriesCf[$i], $entriesTf[$i]);
+      fputcsv($f, $row);
+    }
+  }
 } else {
   $row2 = 1;
   if (($handle = fopen($csv2, "r")) !== FALSE) {
@@ -442,46 +455,55 @@ if ($selectedOption == 'option3') {
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
           </div>
           <?php
-          if ($selectedOption != 'option3') {
+          if ($selectedOption == 'option3') {
             $command1 = escapeshellcmd('/Users/hourianalthunayangmail.com/opt/anaconda3/bin/python scores.py "' . $file1['_id'] . '"');
-            $output1 = shell_exec($command1);
-            $performance = substr($output1, 0, 4);
-            $performance = $performance * 100;
-            $words = substr($output1, 5,);
-            $words = explode(",", $words);
-            $fileEdit = $collectionF->updateOne(
-              ['username' => $username, 'FileName' => $FileName, 'ProjectName' => $ProjectName], // conditions 
-              ['$set' => ['F1_Scores.0' => $performance],], // update to set the selected model 
-            );
-            // Note : toxicWords array for toxic words for file 1, nonToxicWords array for non-toxic words for file 1 
-            // Note : toxicWords2 array for toxic words for file 2, nonToxicWords2 array for non-toxic words for file 2 
-
-            $toxicWords[] = substr($words[0], 2, -1); // to remove bracets and quotes
-            $toxicWords[] = substr($words[1], 2, -1); // to remove bracets and quotes
-            $toxicWords[] = substr($words[2], 2, -1); // to remove bracets and quotes
-            $toxicWords[] = substr($words[3], 2, -1); // to remove bracets and quotes
-            $toxicWords[] = substr($words[4], 2, -3); // to remove bracets and quotes
-            $nonToxicWords[] = substr($words[5], 3, -1); // to remove bracets and quotes
-            $nonToxicWords[] = substr($words[6], 2, -1); // to remove bracets and quotes
-            $nonToxicWords[] = substr($words[7], 2, -1); // to remove bracets and quotes
-            $nonToxicWords[] = substr($words[8], 2, -1); // to remove bracets and quotes
-            $nonToxicWords[] = substr($words[9], 2, -3); // to remove bracets and quotes
+            $command2 = escapeshellcmd('/Users/hourianalthunayangmail.com/opt/anaconda3/bin/python scoresFeedback.py "' . $file1['_id'] . 'feedback"');
+          } else {
+            $command1 = escapeshellcmd('/Users/hourianalthunayangmail.com/opt/anaconda3/bin/python scores.py "' . $file1['_id'] . '"');
             $command2 = escapeshellcmd('/Users/hourianalthunayangmail.com/opt/anaconda3/bin/python scores.py "' . $file2['_id'] . '"');
-            $output2 = shell_exec($command2);
-            $performance2 = substr($output2, 0, 4);
-            $performance2 = $performance2 * 100;
-            $words2 = substr($output2, 5,);
-            $words2 = explode(",", $words2);
-            $toxicWords2[] = substr($words2[0], 2, -1); // to remove bracets and quotes
-            $toxicWords2[] = substr($words2[1], 2, -1); // to remove bracets and quotes
-            $toxicWords2[] = substr($words2[2], 2, -1); // to remove bracets and quotes
-            $toxicWords2[] = substr($words2[3], 2, -1); // to remove bracets and quotes
-            $toxicWords2[] = substr($words2[4], 2, -3); // to remove bracets and quotes
-            $nonToxicWords2[] = substr($words2[5], 3, -1); // to remove bracets and quotes
-            $nonToxicWords2[] = substr($words2[6], 2, -1); // to remove bracets and quotes
-            $nonToxicWords2[] = substr($words2[7], 2, -1); // to remove bracets and quotes
-            $nonToxicWords2[] = substr($words2[8], 2, -1); // to remove bracets and quotes
-            $nonToxicWords2[] = substr($words2[9], 2, -3); // to remove bracets and quotes
+          }
+
+          $output1 = shell_exec($command1);
+          $performance = substr($output1, 0, 4);
+          settype($performance, 'float');
+          $performance = $performance * 100;
+          $words = substr($output1, 5,);
+          $words = explode(",", $words);
+          $fileEdit = $collectionF->updateOne(
+            ['username' => $username, 'FileName' => $FileName, 'ProjectName' => $ProjectName], // conditions 
+            ['$set' => ['F1_Scores.0' => $performance],], // update to set the selected model 
+          );
+          // Note : toxicWords array for toxic words for file 1, nonToxicWords array for non-toxic words for file 1 
+          // Note : toxicWords2 array for toxic words for file 2, nonToxicWords2 array for non-toxic words for file 2 
+
+          $toxicWords[] = substr($words[0], 2, -1); // to remove bracets and quotes
+          $toxicWords[] = substr($words[1], 2, -1); // to remove bracets and quotes
+          $toxicWords[] = substr($words[2], 2, -1); // to remove bracets and quotes
+          $toxicWords[] = substr($words[3], 2, -1); // to remove bracets and quotes
+          $toxicWords[] = substr($words[4], 2, -3); // to remove bracets and quotes
+          $nonToxicWords[] = substr($words[5], 3, -1); // to remove bracets and quotes
+          $nonToxicWords[] = substr($words[6], 2, -1); // to remove bracets and quotes
+          $nonToxicWords[] = substr($words[7], 2, -1); // to remove bracets and quotes
+          $nonToxicWords[] = substr($words[8], 2, -1); // to remove bracets and quotes
+          $nonToxicWords[] = substr($words[9], 2, -3); // to remove bracets and quotes
+          $output2 = shell_exec($command2);
+          $performance2 = substr($output2, 0, 4);
+          settype($performance2, 'float');
+          $performance2 = $performance2 * 100;
+          $words2 = substr($output2, 5,);
+          $words2 = explode(",", $words2);
+          $toxicWords2[] = substr($words2[0], 2, -1); // to remove bracets and quotes
+          $toxicWords2[] = substr($words2[1], 2, -1); // to remove bracets and quotes
+          $toxicWords2[] = substr($words2[2], 2, -1); // to remove bracets and quotes
+          $toxicWords2[] = substr($words2[3], 2, -1); // to remove bracets and quotes
+          $toxicWords2[] = substr($words2[4], 2, -3); // to remove bracets and quotes
+          $nonToxicWords2[] = substr($words2[5], 3, -1); // to remove bracets and quotes
+          $nonToxicWords2[] = substr($words2[6], 2, -1); // to remove bracets and quotes
+          $nonToxicWords2[] = substr($words2[7], 2, -1); // to remove bracets and quotes
+          $nonToxicWords2[] = substr($words2[8], 2, -1); // to remove bracets and quotes
+          $nonToxicWords2[] = substr($words2[9], 2, -3); // to remove bracets and quotes
+
+          if ($selectedOption != 'option3') {
             $fileEdit = $collectionF->updateOne(
               ['username' => $username, 'FileName' => $file2['FileName'], 'ProjectName' => $ProjectName], // conditions 
               ['$set' => ['F1_Scores.0' => $performance2],], // update to set the selected model 
@@ -734,5 +756,13 @@ if ($selectedOption == 'option3') {
   <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
   <script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
 </body>
+<script>
+  $(function() {
+    $('#example').dataTable({
+      "bDestroy": true,
+      "orderFixed": [3, 'desc']
+    });
+  });
+</script>
 
 </html>
