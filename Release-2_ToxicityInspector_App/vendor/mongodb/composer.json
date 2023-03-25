@@ -3,3 +3,9 @@
         "mongodb/mongodb": "^1.11"
     }
 }
+{
+  "require": {
+    "php": "7.4.21"
+  }
+}
+
