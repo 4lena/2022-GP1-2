@@ -89,18 +89,15 @@
 
 
                         <div class="form-group">
-                           <label for="username">Username</label>
-                          <input type="text" class="form-control" name="username" placeholder="Username" required>
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" name="username" placeholder="Username" required>
                         </div>
-
+                        <br>
                         <div class="form-group">
-                           <label for="password">Password</label>
-                          <input type="password" class="form-control" name="password" placeholder="password" required>
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" name="password" placeholder="password" required>
                         </div>
-         
-
-                       
-                 
+                        <br>
                         <div class="fplink">
                             <a data-bs-toggle="modal" data-bs-target="#inlineForm">
                                 Forget Password?
@@ -122,9 +119,8 @@
         <div class="modal fade text-left" id="inlineForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel33" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div class="modal-content">
-                    <br>
                     <div class="modal-header">
-                        <h4 class="user-link" id="myModalLabel33">Forget Password</h4>
+                        <h4 class="modal-title" id="myModalLabel33">Forget Password</h4>
 
                         <button type="button" class="btn btn-light rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i></button>
                     </div>
@@ -145,11 +141,11 @@
                                 </button>
 
                             </div>
-                            </form>
-                        </div>
-
+                    </form>
                 </div>
+
             </div>
+        </div>
     </section>
 
     <!-- ======= Footer ======= -->
