@@ -122,8 +122,9 @@
         <div class="modal fade text-left" id="inlineForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel33" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                 <div class="modal-content">
+                    <br>
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel33">Forget Password</h4>
+                        <h4 class="user-link" id="myModalLabel33">Forget Password</h4>
 
                         <button type="button" class="btn btn-light rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i></button>
                     </div>
