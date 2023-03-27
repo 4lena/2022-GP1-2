@@ -88,27 +88,27 @@ include("Db.php");
     <form action="signUpForm.php" method="POST" > 
   <div class="form-group">
     <label for="username">Username</label>
-    <input type="text" class="form-control" name="username" pattern="[a-z\d]{4,}" title="Please enter lowercase letters and numbers only, and at least 4 or more characters" placeholder="Username" required>
+    <input type="text" class="form-control" name="username" pattern="[a-z\d]{4,}" title="Please enter lowercase letters and numbers only, and at least 4 or more characters" required>
   </div>
   <div class="form-group">
     <label for="first_name">First name</label>
-    <input type="text" class="form-control" name="first_name" pattern="[a-zA-Z]*" title="Please enter letters only" placeholder="First Name" required>
+    <input type="text" class="form-control" name="first_name" pattern="[a-zA-Z]*" title="Please enter letters only" required>
   </div>
   <div class="form-group">
     <label for="last_name">Last name</label>
-    <input type="text" class="form-control" name="last_name" pattern="[a-zA-Z]*" title="Please enter letters only" placeholder="Last Name" required>
+    <input type="text" class="form-control" name="last_name" pattern="[a-zA-Z]*" title="Please enter letters only" required>
   </div>
   <div class="form-group">
     <label for="email">Email</label>
-    <input type="email" class="form-control" name="email" pattern=".+\.com" title="Please enter your email" placeholder="Email" required>
+    <input type="email" class="form-control" name="email" pattern=".+\.com" title="Please enter your email" required>
   </div>
   <div class="form-group">
     <label for="date">Date of birth</label>
-    <input type="date" class="form-control" name="date" title="Please enter your date of birth" placeholder="Date of birth" required>
+    <input type="date" class="form-control" name="date" title="Please enter your date of birth" required>
   </div>
   <div class="form-group">
     <label for="educationLevel">Education Level</label>
-    <select class="form-control" id="educationLevel" aria-label="Education Level" name="educationLevel" placeholder="educationLevel" required>
+    <select class="form-control" id="educationLevel" aria-label="Education Level" name="educationLevel" required>
             <option value="">Choose...</option>
                 <option value="High school diploma or equivalent">High school diploma or equivalent</option>
                 <option value="Undergraduate">Undergraduate</option>
@@ -131,12 +131,12 @@ include("Db.php");
 
   <div class="form-group">
     <label for="password">Password</label>
-    <input type="password" class="form-control" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Please enter at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Password" required>
+    <input type="password" class="form-control" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Please enter at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
   </div>
 
   <div class="form-group">
     <label for="password2">Confirm your password</label>
-    <input type="password" class="form-control" name="password2" id="password2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" onChange="PassVal();" title="Please enter at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Confirm your password" required>
+    <input type="password" class="form-control" name="password2" id="password2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" onChange="PassVal();" title="Please enter at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
   </div>
 
   <div class="form-group">
