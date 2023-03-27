@@ -279,7 +279,6 @@ for ($i = 1; $i < 6; $i++) {
               <script>
                 document.addEventListener("DOMContentLoaded", () => {
                   new ApexCharts(document.querySelector("#columnChart"), {
-
                     chart: {
                       type: 'bar',
                       height: 337
@@ -302,14 +301,15 @@ for ($i = 1; $i < 6; $i++) {
                     series: [{
                       name: 'Version Accuracy',
                       data: [<?php for ($i = 0; $i < 6; $i++)
-                                echo $F1_Scores_List[$i] . ',';
+                                if ($i == 0)
+                                  echo $F1_Scores_List[$i] . ',';
+                                else
+                                  echo ($F1_Scores_List[$i] - $F1_Scores_List[$i - 1]) . ',';
                               ?>]
                     }],
                     xaxis: {
                       categories: ['Original File ', ' Level 1 ', ' Level 2 ', ' Level 3 ', ' Level 4 ', ' Level 5']
                     },
-
-
                     yaxis: {
                       title: {
                         text: 'Accuracy Level'
