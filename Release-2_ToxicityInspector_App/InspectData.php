@@ -179,9 +179,11 @@ $projectStatus = $collectionP->updateOne(
         </button>
         </a>
         <?php
-        
+        $File = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $fileID . '.html';
+        if (!file_exists($File)){
         $command = escapeshellcmd('/Users/hourianalthunayangmail.com/opt/anaconda3/bin/python InspectData.py "' . $fileID . '"');
         $output = shell_exec($command);
+        }
         ?>
 
         <br><br>
