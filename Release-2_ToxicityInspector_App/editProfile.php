@@ -22,6 +22,7 @@ $oldFirstName = $user['FirstName'];
 $oldLastName = $user['LastName'];
 $oldUsername = $username;
 $oldEmail = $user['Email'];
+$oldLevel = $user['educationLevel'];
 
 $query = array('username'=>$_POST['newUsername']);
 $query2 = array('Email'=>$_POST['newEmail']); 
@@ -34,8 +35,9 @@ if (isset($_POST['submit'])) {
     $newLastName = $_POST['newLastName'];
     $newUsername = $_POST['newUsername'];
     $newEmail = $_POST['newEmail'];
+    $newLevel = $_POST['newLevel'];
 
-    if ($newFirstName == $oldFirstName && $newLastName == $oldLastName && $newUsername == $oldUsername && $newEmail == $oldEmail) { // no update enculde email
+    if ($newFirstName == $oldFirstName && $newLastName == $oldLastName && $newUsername == $oldUsername && $newEmail == $oldEmail && $oldLevel == $newLevel) { // no update enculde email
         $flag = 1;
         echo '<script>window.location="' . $locat . '";</script>';
     } 
@@ -44,12 +46,13 @@ if (isset($_POST['submit'])) {
         $flag = 1;
         $userEdit = $collectionU->updateOne(
             ['FirstName' => $oldFirstName, 'LastName' => $oldLastName, 'username' => $oldUsername], // conditions 
-            ['$set' => ['FirstName' => $newFirstName, 'LastName' => $newLastName],], // update
+            ['$set' => ['FirstName' => $newFirstName, 'LastName' => $newLastName,'educationLevel'=>$newLevel],], // update
         );
 
         if ($userEdit->getMatchedCount()) {// edited successsfully
             $_SESSION['FirstName'] = $newFirstName;
             $_SESSION['LastName'] = $newLastName;
+            $_SESSION['educationLevel'] = $newLevel;
             echo '<script>alert("Profile Information Updated Successfully");</script>';
         } 
         else // failed 
@@ -74,7 +77,7 @@ if (isset($_POST['submit'])) {
 
         $userEdit = $collectionU->updateOne(
             ['FirstName' => $oldFirstName, 'LastName' => $oldLastName, 'username' => $oldUsername, 'Email' => $oldEmail], // conditions 
-            ['$set' => ['FirstName' => $newFirstName, 'LastName' => $newLastName, 'username' => $newUsername, 'Email' => $newEmail],], // update 
+            ['$set' => ['FirstName' => $newFirstName, 'LastName' => $newLastName, 'username' => $newUsername, 'Email' => $newEmail,'educationLevel'=>$newLevel],], // update 
         ); 
 
         $projectEdit = $collectionP->updateMany(
@@ -91,6 +94,7 @@ if (isset($_POST['submit'])) {
             $_SESSION['LastName'] = $newLastName;
             $_SESSION['username'] = $newUsername;
             $_SESSION['Email'] = $newEmail;
+            $_SESSION['educationLevel'] = $newLevel;
             echo '<script>alert("Profile Information Updated Successfully");</script>';
         }
 

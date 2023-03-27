@@ -15,7 +15,8 @@ $name = $_SESSION["FirstName"];
 $user = $collectionU->findOne(
   ['username' => $username],
 );
-
+$level =  $user['educationLevel'];
+$levels = array("High school diploma or equivalent", "Undergraduate", "Bachelor’s degree", "Master’s degree", "Doctorate", "other");
 ?>
 
 <!DOCTYPE html>
@@ -257,10 +258,21 @@ $user = $collectionU->findOne(
                     <input name="newEmail" type="email" class="form-control" id="newEmail" value=<?php echo $user['Email']; ?> pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                   </div>
                 </div>
-
-              
-
-            
+                <div class="row mb-3">
+                  <label for="newLevel" class="col-md-4 col-lg-3 col-form-label">Education Level</label>
+                  <div class="col-md-8 col-lg-9">
+                    <select class="form-control" id="newLevel" aria-label="Education Level" name="newLevel" required>
+                      <?php
+                      foreach ($levels as $l)
+                        if ($l == $level)
+                          echo "<option value='" . $l . "' selected>" . $l . "</option>";
+                        else
+                          echo "<option value='" . $l . "'>" . $l . "</option>";
+                      ?>
+                    </select>
+                  </div>
+                </div>
+                <br>
 
                 <div class="text-center">
                   <button type="submit" name="submit" class="btn btn-primary">Save Changes</button>
@@ -288,11 +300,11 @@ $user = $collectionU->findOne(
                 </div>
                 <div class="row mb-3">
                   <label for="newPassword" class="col-md-4 col-lg-3 col-form-label">Confirm New Password</label>
-                <div class="col-md-8 col-lg-9">
+                  <div class="col-md-8 col-lg-9">
                     <input name="newPassword2" type="password" class="form-control" id="newPassword2" onChange="PassVal();" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Please enter at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                   </div>
-                  </div>
-                <div class="text-center"> 
+                </div>
+                <div class="text-center">
                   <button type="submit" name='submit' class="btn btn-primary">Change Password</button>
                 </div>
               </form><!-- End Change Password Form -->
