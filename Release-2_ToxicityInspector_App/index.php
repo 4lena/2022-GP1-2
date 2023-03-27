@@ -1,3 +1,13 @@
+<?php 
+
+if(isset($_GET['check'])){
+  
+  echo phpinfo();
+  exit;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
