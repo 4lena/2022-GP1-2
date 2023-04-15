@@ -40,8 +40,8 @@ if ($selectedOption != 'option3') {
   );
   // check if the first file has labels 
 
-  $CSVfp1 = fopen('/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . '.csv', "r");
-  $trainFile = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . 'train.csv';
+  $CSVfp1 = fopen('/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file1['_id'] . '.csv', "r");
+  $trainFile = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file1['_id'] . 'train.csv';
   $data1 = fgetcsv($CSVfp1, 1000, ",");
 
   $labelFlag1 = false;
@@ -61,8 +61,8 @@ if ($selectedOption != 'option3') {
       $index1 = 3;
     }
   }
-  $CSVfp2 = fopen('/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . '.csv', "r");
-  $trainFile2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . 'train.csv';
+  $CSVfp2 = fopen('/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file2['_id'] . '.csv', "r");
+  $trainFile2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file2['_id'] . 'train.csv';
   if (!file_exists($trainFile2)) {
     $labelFlag2 = false;
     $index2 = -1;
@@ -83,10 +83,10 @@ if ($selectedOption != 'option3') {
       }
     }
   }
-  $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . '.csv';
-  $csv2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . '.csv';
+  $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file1['_id'] . '.csv';
+  $csv2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file2['_id'] . '.csv';
   if (!($labelFlag1)) {
-    $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . 'API.csv';
+    $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file1['_id'] . 'API.csv';
     if (file_exists($csv1)) {
       $CSVfp1 = fopen($csv1, "r");
       $data1 = fgetcsv($CSVfp1, 1000, ",");
@@ -97,7 +97,7 @@ if ($selectedOption != 'option3') {
     }
   }
   if (!file_exists($trainFile2) && !($labelFlag2)) {
-    $csv2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file2['_id'] . 'API.csv';
+    $csv2 = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file2['_id'] . 'API.csv';
     if (file_exists($csv2)) {
       $CSVfp2 = fopen($csv2, "r");
       $data2 = fgetcsv($CSVfp2, 1000, ",");
@@ -155,7 +155,7 @@ if ($selectedOption == 'option3') {
   $entriesC = array();
   $entriesT = array();
   $row = 1;
-  $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . '.csv';
+  $csv1 = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file1['_id'] . '.csv';
 
   if (($handle = fopen($csv1, "r")) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
@@ -185,8 +185,8 @@ if ($selectedOption == 'option3') {
   for ($i = 1; $i < $feedbackLevel; $i++) {
     $entriesC2 = array();
     $entriesT2 = array();
-    $train = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . 'feedback' . $i . 'train.csv';
-    $test = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file1['_id'] . 'feedback' . $i . 'test.csv';
+    $train = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file1['_id'] . 'feedback' . $i . 'train.csv';
+    $test = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file1['_id'] . 'feedback' . $i . 'test.csv';
     $row2 = 1;
     if (($handle = fopen($train, "r")) !== FALSE) {
       while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {

@@ -27,7 +27,7 @@ client = discovery.build(
 
 newId = sys.argv[1]
 # newId= '63dbbd733794116f92053be4'
-fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'.csv'
+fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'.csv'
 
 countAll = 0 # to count all comments 
 current = 0 # to count the currnet comment 

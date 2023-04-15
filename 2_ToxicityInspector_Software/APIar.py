@@ -23,7 +23,7 @@ client = discovery.build(
   static_discovery=False,
 )
 newId = sys.argv[1]
-fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_App//Uploads/'+newId+'.csv'
+fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software//Uploads/'+newId+'.csv'
 
 num =0 
 num2=0
