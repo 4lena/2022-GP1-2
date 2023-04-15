@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   
-  <a href="https://github.com/4lena/2022-GP1-2">
+  <a href="https://github.com/4lena/2022-GP2-2">
     <img src="2_ToxicityInspector_App/assets/img/logo.png" alt="Logo" width="250" height="250">
   </a>
 
@@ -24,6 +24,12 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
+    </li>
+    <li>
+      <a href="#comments-csv-files-for-testing">Comments .CSV Files for Testing</a>
+    </li>
+    <li>
+      <a href="#a-hosted-version">A Hosted Version</a>
     </li>
   </ol>
 </details>
@@ -72,15 +78,44 @@ who want to inspect the toxicity level of their comments.
    ```
 4. Edit the directories of the Python connection code in the following PHP files:
 * overallToxicity.php
-* InspectData.php<br>**For example** edit the following code to match your directory:
+* InspectData.php
+* UploadedFileForm.php
+* Reclassify.py
+* interpretationOfaComment.py
+* comparison.py
+<br>**For example** edit the following code to match your directory:
    ```sh
    $command = escapeshellcmd('write your directory here  API.py "'.$UploadedFile.'" "'.$fileID.'"');
    ```
 5. Edit the directories of the following Python files:
 * API.py
 * APIar.py
-* InspectData.py<br>**For example** edit the first line of the python code to match the directory of your environment:
+* InspectData.py
+* split.py
+* splitAPI.py
+* langDetection.py
+* IntereptToxicity.py
+* HateSpeechDetection.py
+* Advanced.py
+* AdvancedFeedback.py
+* BaseLine.py
+* BaseLineFeedback.py
+* scores.py
+* scoresFeedback.py
+* Reclassification.py
+<br>**For example** edit the first line of the python code to match the directory of your environment:
    ```sh
    #!write your environment directory here
    ```
 6. Finally, run the files using your localhost server.
+
+<!-- Comments CSV Files for Testing -->
+## Comments .CSV Files for Testing
+* [English file](https://drive.google.com/file/d/1E3dM9J89ZZbtWJvvb4wWs2JP4SlCSqLP/view).
+* [Arabic file](https://drive.google.com/file/d/1IK6IlX_9vSnG746Ethv_OWcZpiVWX87h/view).
+
+<!-- A Hosted Version  -->
+## A Hosted Version 
+[Toxicity Inspector Website](http://68.183.85.89/index.php).
+
+
