@@ -3,7 +3,7 @@
 <div align="center">
   
   <a href="https://github.com/4lena/2022-GP2-2">
-    <img src="2_ToxicityInspector_App/assets/img/logo.png" alt="Logo" width="250" height="250">
+    <img src="2_ToxicityInspector_Software/assets/img/logo.png" alt="Logo" width="250" height="250">
   </a>
 
   <h3 align="center">Toxicity Inspector</h3>
