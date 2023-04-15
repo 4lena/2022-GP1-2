@@ -23,7 +23,7 @@ $file = $collectionF->findOne( //get the file info
 );
 // check if the file has labels 
 $locat = 'FilePage.php?ProjectName=' . $ProjectName . '&FileName=' . $FileName . '&name=' . $name;
-$CSVfp1 = fopen('/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file['_id'] . '.csv', "r");
+$CSVfp1 = fopen('/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . '.csv', "r");
 $labelFlag1 = false;
 $index1 = -1;
 $data1 = fgetcsv($CSVfp1, 1000, ",");
@@ -43,9 +43,9 @@ if (!empty($data1)) {
   }
 }
 
-$csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file['_id'] . '.csv';
+$csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . '.csv';
 if (!($labelFlag1)) {
-  $csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file['_id'] . 'API.csv';
+  $csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . 'API.csv';
   if (file_exists($csv)) {
     $CSVfp1 = fopen($csv, "r");
     $data1 = fgetcsv($CSVfp1, 1000, ",");
@@ -71,7 +71,7 @@ if (!($labelFlag1)) { //if the csv files is not created yet
   echo '<script>window.location="' . $locat . '";</script>';
 }
 
-$csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file['_id'] . '.csv';
+$csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . '.csv';
 ?>
 
 <!DOCTYPE html>

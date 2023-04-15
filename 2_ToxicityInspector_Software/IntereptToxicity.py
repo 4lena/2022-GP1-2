@@ -27,9 +27,9 @@ def main():
  for i in range (len(comment)):
     newComment = newComment+' '+comment[i]
  print(newComment)
- trainFileDir ='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'train.csv'
+ trainFileDir ='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'train.csv'
  train_df = pd.read_csv(trainFileDir)
- testFileDir ='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'test.csv'
+ testFileDir ='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'test.csv'
  test_df = pd.read_csv(testFileDir)
 
  test_df=pd.DataFrame(test_df)
@@ -53,9 +53,9 @@ def main():
  exp = explainer.explain_instance(newComment, c.predict_proba, num_features = 10)
 
  exp.as_list()
- exp_filepath = os.path.join('/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+index)
+ exp_filepath = os.path.join('/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+index)
 #  exp.show_in_notebook(text=test_df["comment_text"][idx], labels=(1,))
- exp.save_to_file('/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+index+'.html')
+ exp.save_to_file('/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+index+'.html')
 
  
 if __name__ == '__main__':

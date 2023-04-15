@@ -35,8 +35,8 @@ warnings.filterwarnings('ignore')
 
 newId= '63dbb48c3794116f92053be3'
 # file ='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'.csv'
-testFile = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'test.csv'
-trainFile = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'train.csv'
+testFile = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'test.csv'
+trainFile = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'train.csv'
 # file = pd.read_csv(file)
 testFile = pd.read_csv(testFile)
 trainFile = pd.read_csv(trainFile)

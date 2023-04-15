@@ -16,9 +16,9 @@ import string
 newId = sys.argv[1]
 # newId= '63dbbd733794116f92053be4'
 # read training and testing data after splitting
-train ='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'train.csv'
+train ='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'train.csv'
 train = pd.read_csv(train)
-test ='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'test.csv'
+test ='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'test.csv'
 test = pd.read_csv(test)
 
 # convert the test and train data into dataframe and reset indexes 

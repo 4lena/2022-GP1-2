@@ -17,7 +17,7 @@ def split():
  newId = sys.argv[1]
 #  newId = '63fe81e7cbb6f440e30ed252'
 
- fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+ newId+'API.csv'
+ fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+ newId+'API.csv'
  file = pd.read_csv(fileDir)
 # Split data
  
@@ -39,7 +39,7 @@ def split():
   y_testDF = y_testDF.reset_index(drop=True)
   y_trainDF = y_trainDF.reset_index(drop=True)
 
-  new_CSV_file='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'test.csv'
+  new_CSV_file='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'test.csv'
   file_new= open(new_CSV_file,'w')
   new_test_df = pd.read_csv(new_CSV_file,names=['comment_text','toxic'])
   index=0    
@@ -51,7 +51,7 @@ def split():
   new_test_df.to_csv(new_CSV_file) 
   file_new.close() #save test file 
 
-  new_CSV_file1='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'train.csv'
+  new_CSV_file1='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'train.csv'
   file_new= open(new_CSV_file1,'w')
   new_train_df = pd.read_csv(new_CSV_file1,names=['comment_text','toxic'])
   index=0    

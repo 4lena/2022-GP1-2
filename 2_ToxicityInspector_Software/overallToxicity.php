@@ -59,7 +59,7 @@ if ($files['Languages'] == 'English' && $flag == 0) {
         }
     }
     fclose($f);
-    $csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $fileID . 'train.csv';
+    $csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $fileID . 'train.csv';
     if (!file_exists($csv)) {
         $command = escapeshellcmd('/Users/hourianalthunayangmail.com/opt/anaconda3/bin/python splitAPI.py "' . $fileID . '"');
         $output = shell_exec($command);
@@ -95,7 +95,7 @@ if ($files['Languages'] == 'English' && $flag == 0) {
         }
     }
     fclose($f);
-    $csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $fileID . 'train.csv';
+    $csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $fileID . 'train.csv';
     if (!file_exists($csv)) {
         $command = escapeshellcmd('/Users/hourianalthunayangmail.com/opt/anaconda3/bin/python splitAPI.py "' . $fileID . '"');
         $output = shell_exec($command);

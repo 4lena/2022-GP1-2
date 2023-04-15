@@ -5,7 +5,7 @@ import pandas
 import sys
 
 newId = sys.argv[1]
-fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+ newId+'.csv'
+fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+ newId+'.csv'
 
 
 DetectorFactory.seed = 0

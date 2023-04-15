@@ -23,7 +23,7 @@ def main():
  #Read data
  newId = sys.argv[1]
 #  newId= '63dbb48c3794116f92053be3'
- fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'.csv'
+ fileDir = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'.csv'
  training = pd.read_csv(fileDir)
  #Load the regular expression library
  #Remove punctuation
@@ -61,7 +61,7 @@ def main():
                                         num_topics=num_topics)
  
  #Visualize the topics
- LDAvis_data_filepath = os.path.join('/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId)
+ LDAvis_data_filepath = os.path.join('/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId)
  if 1 == 1:
      LDAvis_prepared = gensimvis.prepare(lda_model, corpus, id2word)
      with open(LDAvis_data_filepath, 'wb') as f:
@@ -69,7 +69,7 @@ def main():
  #Load the pre-prepared pyLDAvis data from disk
  with open(LDAvis_data_filepath, 'rb') as f:
     LDAvis_prepared = pickle.load(f)
- pyLDAvis.save_html(LDAvis_prepared,'/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'.html') 
+ pyLDAvis.save_html(LDAvis_prepared,'/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'.html') 
 
 if __name__ == '__main__':
     main()

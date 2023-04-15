@@ -16,7 +16,7 @@ import string
 
 newId = sys.argv[1]
 # newId= '641d92bd6d5867ca380685d2feedback'
-file ='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'.csv'
+file ='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'.csv'
 file = pd.read_csv(file)
 # read training and testing data after splitting
 X=file['comment_text']
@@ -35,7 +35,7 @@ X_trainDF = X_trainDF.reset_index(drop=True)
 y_testDF = y_testDF.reset_index(drop=True)
 y_trainDF = y_trainDF.reset_index(drop=True)
 
-new_CSV_file='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'test.csv'
+new_CSV_file='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'test.csv'
 file_new= open(new_CSV_file,'w')
 new_test_df = pd.read_csv(new_CSV_file,names=['comment_text','toxic'])
 index=0    
@@ -47,7 +47,7 @@ for y in range(yCount_test):
 new_test_df.to_csv(new_CSV_file) 
 file_new.close() #save test file 
 
-new_CSV_file1='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'train.csv'
+new_CSV_file1='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'train.csv'
 file_new= open(new_CSV_file1,'w')
 new_train_df = pd.read_csv(new_CSV_file1,names=['comment_text','toxic'])
 index=0    
@@ -60,9 +60,9 @@ for index in range(yCount_train):
 new_train_df.to_csv(new_CSV_file1) 
 file_new.close()
 
-train ='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'train.csv'
+train ='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'train.csv'
 train = pd.read_csv(train)
-test ='/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/'+newId+'test.csv'
+test ='/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/'+newId+'test.csv'
 test = pd.read_csv(test)
 
 # convert the test and train data into dataframe and reset indexes 

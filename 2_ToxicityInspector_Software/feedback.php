@@ -22,19 +22,19 @@ $file = $collectionF->findOne( //get the file info
   ],
 );
 
-$csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file['_id'] . '.csv';
+$csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . '.csv';
 $feedbackLevel = $file['FeedbackLevel'];
 if (($handle = fopen($csv, "r")) !== FALSE) { //to check if there is labels in the csv file
   $firstLine = fgetcsv($handle);
 
-  if (!(in_array("toxic", $firstLine)) && !file_exists($_SERVER['DOCUMENT_ROOT'] . '/2_ToxicityInspector_App/Uploads/' . $file['_id'] . 'API.csv')) {
+  if (!(in_array("toxic", $firstLine)) && !file_exists($_SERVER['DOCUMENT_ROOT'] . '/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . 'API.csv')) {
     fclose($handle);
     echo '<script>alert("In order to give your feedback you have to check the overall toxicity for ' . $file['FileName'] . ' file!");</script>';
     echo '<script>window.location="FilePage.php?ProjectName=' . $ProjectName . '&FileName=' . $FileName . '&name=' . $name . '";</script>';
   }
 
-  $csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file['_id'] . 'train.csv';
-  $csvTest = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file['_id'] . 'test.csv';
+  $csv = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . 'train.csv';
+  $csvTest = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . 'test.csv';
 }
 if ($feedbackLevel >= 6) {
   echo '<script>alert("You reach to the end of your File!");</script>';
@@ -42,8 +42,8 @@ if ($feedbackLevel >= 6) {
 }
 
 
-$feedbackFileTrain = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file['_id'] . 'feedback' . strval($feedbackLevel) . 'train.csv'; //in which format should it be? fID + fbID or fbID
-$feedbackFileTest = '/Applications/MAMP/htdocs/2_ToxicityInspector_App/Uploads/' . $file['_id'] . 'feedback' . strval($feedbackLevel) . 'test.csv'; //in which format should it be? fID + fbID or fbID
+$feedbackFileTrain = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . 'feedback' . strval($feedbackLevel) . 'train.csv'; //in which format should it be? fID + fbID or fbID
+$feedbackFileTest = '/Applications/MAMP/htdocs/2_ToxicityInspector_Software/Uploads/' . $file['_id'] . 'feedback' . strval($feedbackLevel) . 'test.csv'; //in which format should it be? fID + fbID or fbID
 
 //read the train csv file and store it to array
 $entriesC = array();
