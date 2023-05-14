@@ -56,7 +56,7 @@
 <li>
   Stakeholders:
   <ul>
-   Project Committee
+   Project Committee2
   </ul>
 </li>
 
