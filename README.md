@@ -57,8 +57,6 @@ who want to inspect the toxicity level of their comments.
 ### Prerequisites
 
 * MongoDB.
-* LDA packages.
-* Perspective API.
 * Visual Studio Code.
 * Spyder in Anaconda.
 * Localhost server you can use MAMP local server.
