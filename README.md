@@ -78,12 +78,14 @@ who want to inspect the toxicity level of their comments.
 * overallToxicity.php
 * InspectData.php
 * UploadedFileForm.php
-* Reclassify.py
-* interpretationOfaComment.py
-* comparison.py
-<br>**For example** edit the following code to match your directory:
+* comparison.php
+* feedback.php
+* interpretation.php
+* interpretationOfaComment.php
+
+<br>**For example** edit the following command to match your python environment:
    ```sh
-   $command = escapeshellcmd('write yout python enviroment here  API.py "'.$UploadedFile.'" "'.$fileID.'"');
+   $command = escapeshellcmd('write yout python environment here  API.py "'.$UploadedFile.'" "'.$fileID.'"');
    ```
 5. Edit the directories of the following Python files:
 * API.py
@@ -93,14 +95,14 @@ who want to inspect the toxicity level of their comments.
 * splitAPI.py
 * langDetection.py
 * IntereptToxicity.py
-* HateSpeechDetection.py
 * Advanced.py
 * AdvancedFeedback.py
 * BaseLine.py
 * BaseLineFeedback.py
 * scores.py
 * scoresFeedback.py
-* Reclassification.py
+* Feedback.py
+
 <br>**For example** edit the first line of the python code to match the directory of your environment:
    ```sh
    #!write your environment directory here
