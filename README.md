@@ -116,6 +116,6 @@ who want to inspect the toxicity level of their comments.
 
 <!-- A Hosted Version  -->
 ## A Hosted Version 
-[Toxicity Inspector Website](http://68.183.85.89/index.php).
+[Toxicity Inspector Website](http://toxicityinspect.com/index.php).
 
 
