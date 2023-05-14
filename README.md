@@ -83,7 +83,7 @@ who want to inspect the toxicity level of their comments.
 * comparison.py
 <br>**For example** edit the following code to match your directory:
    ```sh
-   $command = escapeshellcmd('write your directory here  API.py "'.$UploadedFile.'" "'.$fileID.'"');
+   $command = escapeshellcmd('write yout python enviroment here  API.py "'.$UploadedFile.'" "'.$fileID.'"');
    ```
 5. Edit the directories of the following Python files:
 * API.py
