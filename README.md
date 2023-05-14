@@ -60,6 +60,7 @@ who want to inspect the toxicity level of their comments.
 * Visual Studio Code.
 * Spyder in Anaconda.
 * Localhost server you can use MAMP local server.
+* All the needed packages to run all the python scripts.
 
 ### Installation
 
