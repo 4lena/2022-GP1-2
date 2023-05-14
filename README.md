@@ -119,6 +119,8 @@ who want to inspect the toxicity level of their comments.
 ## A Hosted Version 
 [Toxicity Inspector Website](http://toxicityinspect.com/index.php).
 
+## Link to GitHub repository. 
+[2_ToxicityInspector_Repository](https://github.com/4lena/2022-GP2-2/tree/main).
 
 
 
