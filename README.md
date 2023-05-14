@@ -54,7 +54,7 @@ who want to inspect the toxicity level of their comments.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Prerequisites
+### Prerequisites to use it on local host
 
 * MongoDB.
 * Visual Studio Code.
